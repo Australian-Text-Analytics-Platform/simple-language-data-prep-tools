@@ -5,6 +5,11 @@
 - If it can run with few dependencies in the browser
 - If the workflow can be constructed so that each cell in a notebook is independent and does something useful
 
+## Setup
+
+### Development dependencies
+
+
 
 ## Managing Dependencies
 
@@ -22,6 +27,7 @@
 ### Unknown
 
 Testing the GUI interface of the notebooks?
+
 
 
 
