@@ -1,0 +1,10 @@
+{
+  "LiteBuildConfig": {
+    "contents": ["notebooks"],
+    "output_dir": "docs"
+  },
+  "PipliteAddon": {
+    "piplite_urls": [
+    ]
+  }
+}
