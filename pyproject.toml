@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "simple-language-data-prep-tools"
-description = "A collection of small tools for preparing language data for computational analysis."
+description = "A collection of small tools for preparing language data for computational (text) analysis."
 readme = "README.md"
 requires-python = ">=3.10.0"
 license = "AGPL-3.0-or-later"
@@ -19,13 +19,16 @@ classifiers=[
 dependencies = [
   "python-docx",
   "openpyxl",
+  "jupyter",
+  "ipywidgets"
 ]
 
 version="0.0.1dev1"
 
 
 [project.optional-dependencies]
-dev = ["pip-tools", "jupytext", "black", "jupyter"]
+dev = ["pip-tools", "nbstripout"]
+build_jupyterlite = ["jupyterlite-core", "jupyterlite-pyodide-kernel"]
 
 [project.urls]
 Repository = "https://github.com/AustralianTextAnalyticsPlatform/simple-language-data-prep-tools"
@@ -33,4 +36,5 @@ Homepage = "https://github.com/AustralianTextAnalyticsPlatform/simple-language-d
 
 
 [tool.setuptools]
-packages = ["src"]
+package-dir = {"" = "notebooks"}
+packages = ["simple_prep"]
