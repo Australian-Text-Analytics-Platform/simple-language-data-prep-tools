@@ -1,1 +1,6 @@
 .python-version
+.ipynb_checkpoints/
+__pycache__/
+*.egg-info/
+notebooks/*.xlsx
+build/
