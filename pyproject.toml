@@ -19,6 +19,8 @@ classifiers=[
 dependencies = [
   "python-docx",
   "openpyxl",
+  # TODO - these might actually be a dev/deploy dependency, not necessarily needed for the underlying
+  # data processing packages.
   "jupyter",
   "ipywidgets"
 ]
@@ -27,7 +29,7 @@ version="0.0.1dev1"
 
 
 [project.optional-dependencies]
-dev = ["pip-tools", "nbstripout"]
+dev = ["pip-tools", "nbstripout", "black"]
 build_jupyterlite = ["jupyterlite-core", "jupyterlite-pyodide-kernel"]
 
 [project.urls]
