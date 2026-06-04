@@ -1,11 +1,10 @@
 {
   "jupyter-config-data": {
-    "appName": "Simple Language Data Prep Tools",
+    "appName": "JupyterLite",
     "appUrl": "./lab",
     "appVersion": "0.7.6",
     "baseUrl": "./",
     "defaultKernelName": "python",
-    "exposeAppInBrowser": true,
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
       {

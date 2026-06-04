@@ -2,7 +2,8 @@
 .ipynb_checkpoints/
 __pycache__/
 *.egg-info/
-notebooks/*.xlsx
+notebooks/outputs/
 build/
-!docs/build/
+!docs/
 .jupyterlite.doit.db
+.tox/
