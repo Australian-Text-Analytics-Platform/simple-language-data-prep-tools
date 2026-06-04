@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-06-04T02:39:02.090509Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-06-04T01:50:09.388953Z",
+      "mimetype": "text/x-python",
+      "name": "tidy_transcripts.py",
+      "path": "simple_prep/tidy_transcripts.py",
+      "size": 12659,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-06-04T02:39:02.090509Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-06-04T02:39:02.090509Z",
+  "mimetype": null,
+  "name": "simple_prep",
+  "path": "simple_prep",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
