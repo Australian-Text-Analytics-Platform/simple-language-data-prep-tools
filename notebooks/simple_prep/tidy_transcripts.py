@@ -162,6 +162,7 @@ class TidyTranscripts(RowWithExtraFields):
 
     transcripts: dict[str, Document]
     split_speaker_on: re.Pattern | str = ":\t"
+    fill_missing_speaker_with_previous_speaker: bool = False
     spreadsheet_bytes: typing.Optional[bytes] = None
 
     turns: list[Turn] = dc.field(init=False, default_factory=list)
@@ -186,9 +187,23 @@ class TidyTranscripts(RowWithExtraFields):
 
         # Extract and populate all the data we need.
         for source_file, doc in self.transcripts.items():
-            for turn_details in extract_turns(doc, self.split_speaker_on):
 
-                turn = Turn(source_file, *turn_details)
+            last_speaker_code = ""
+
+            for segment_no, turn_no, speaker_code, transcription in extract_turns(
+                doc, self.split_speaker_on
+            ):
+
+                # Optionally, if a speaker can't be identified, replace it with the
+                # last valid speaker.
+                if not speaker_code and self.fill_missing_speaker_with_previous_speaker:
+                    speaker_code = last_speaker_code
+                elif speaker_code:
+                    last_speaker_code = speaker_code
+
+                turn = Turn(
+                    source_file, segment_no, turn_no, speaker_code, transcription
+                )
                 self.turns.append(turn)
 
                 # Extract keys for segments and speaker_codes as we go.
@@ -207,9 +222,7 @@ class TidyTranscripts(RowWithExtraFields):
             self.transcript_stats.append(Transcript(trans, count))
 
     @classmethod
-    def from_filepaths(
-        cls, transcript_paths, spreadsheet_path=None, split_speaker_on=":\t"
-    ):
+    def from_filepaths(cls, transcript_paths, spreadsheet_path=None, **kwargs):
         """Load transcripts from files on disk given by paths."""
 
         transcripts = {}
@@ -225,13 +238,11 @@ class TidyTranscripts(RowWithExtraFields):
                 spreadsheet_bytes = f.read()
 
         return cls(
-            transcripts=transcripts,
-            spreadsheet_bytes=spreadsheet_bytes,
-            split_speaker_on=split_speaker_on,
+            transcripts=transcripts, spreadsheet_bytes=spreadsheet_bytes, **kwargs
         )
 
     @classmethod
-    def from_zip(cls, doc_zip_path, spreadsheet_path=None, split_speaker_on=":\t"):
+    def from_zip(cls, doc_zip_path, spreadsheet_path=None, **kwargs):
         """Load transcripts from a given zip container."""
 
         transcripts = {}
@@ -249,9 +260,7 @@ class TidyTranscripts(RowWithExtraFields):
                 spreadsheet_bytes = f.read()
 
         return cls(
-            transcripts=transcripts,
-            spreadsheet_bytes=spreadsheet_bytes,
-            split_speaker_on=split_speaker_on,
+            transcripts=transcripts, spreadsheet_bytes=spreadsheet_bytes, **kwargs
         )
 
     def extract_from_existing_spreadsheet(self):
