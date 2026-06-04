@@ -4,3 +4,4 @@ __pycache__/
 *.egg-info/
 notebooks/*.xlsx
 build/
+.jupyterlite.doit.db
