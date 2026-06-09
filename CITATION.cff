@@ -1,0 +1,28 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Simple Language Data Preparation Tools
+message: >-
+  If you use this software (especially in your research)
+  please cite it using the information in this file.
+type: software
+authors:
+  - given-names: Sam
+    family-names: Hames
+    affiliation: The University of Queensland
+    orcid: 'https://orcid.org/0000-0002-1824-2361'
+repository-code: >-
+  https://github.com/Australian-Text-Analytics-Platform/simple-language-data-prep-tools
+url: >-
+  https://australian-text-analytics-platform.github.io/simple-language-data-prep-tools/
+abstract: >-
+  The simple language data preparation tools are a set of
+  small browser based Jupyter notebooks. They are aimed at
+  helping you transform and prepare your various text data
+  to make it ready for analysis in a variety of different
+  tools and ecosystems.
+keywords:
+  - data preparation
+  - data transformation
+license: AGPL-3.0-or-later
