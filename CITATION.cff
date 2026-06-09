@@ -12,6 +12,12 @@ authors:
     family-names: Hames
     affiliation: The University of Queensland
     orcid: 'https://orcid.org/0000-0002-1824-2361'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20606858
+    description: >-
+      The concept identifier for all releases of this
+      collection of tools.
 repository-code: >-
   https://github.com/Australian-Text-Analytics-Platform/simple-language-data-prep-tools
 url: >-
@@ -26,3 +32,5 @@ keywords:
   - data preparation
   - data transformation
 license: AGPL-3.0-or-later
+version: 0.0.1
+date-released: '2026-06-09'
