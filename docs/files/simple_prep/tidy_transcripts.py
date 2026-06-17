@@ -41,10 +41,13 @@ def extract_turns(transcript_doc: Document, split_speaker_on: re.Pattern):
         if not para_text and last_para_has_content:
             segment_no += 1
             last_para_has_content = False
-            continue
 
         if para_text:
             last_para_has_content = True
+
+        # Don't generate any lines for empty paragraphs
+        if not para_text:
+            continue
 
         # Use the provided splitter and the first place it matches to separate the
         # text into speaker and turn.
