@@ -25,7 +25,7 @@ dependencies = [
   "ipywidgets"
 ]
 
-version="0.0.1dev1"
+version="0.0.3"
 
 
 [project.optional-dependencies]
