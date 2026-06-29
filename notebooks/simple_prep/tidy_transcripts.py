@@ -118,7 +118,6 @@ class Segment(RowWithExtraFields):
     source_file: str
     segment_no: int
     turn_count: typing.Optional[int] = 0
-    segment_name: typing.Optional[str] = ""
     extra_fields: typing.Optional[dict[str, typing.Any]] = dc.field(
         default_factory=dict
     )
@@ -225,7 +224,7 @@ class TidyTranscripts(RowWithExtraFields):
             self.transcript_stats.append(Transcript(trans, count))
 
     @classmethod
-    def from_filepaths(cls, transcript_paths, spreadsheet_path=None, **kwargs):
+    def from_filepaths(cls, transcript_paths, spreadsheet_bytes=None, **kwargs):
         """Load transcripts from files on disk given by paths."""
 
         transcripts = {}
@@ -236,16 +235,12 @@ class TidyTranscripts(RowWithExtraFields):
 
         spreadsheet_bytes = None
 
-        if spreadsheet_path:
-            with open(spreadsheet_path, "rb") as f:
-                spreadsheet_bytes = f.read()
-
         return cls(
             transcripts=transcripts, spreadsheet_bytes=spreadsheet_bytes, **kwargs
         )
 
     @classmethod
-    def from_zip(cls, doc_zip_path, spreadsheet_path=None, **kwargs):
+    def from_zip(cls, doc_zip_path, spreadsheet_bytes=None, **kwargs):
         """Load transcripts from a given zip container."""
 
         transcripts = {}
@@ -255,12 +250,6 @@ class TidyTranscripts(RowWithExtraFields):
                 if zippath.endswith(".docx"):
                     with zipf.open(zippath, "r") as f:
                         transcripts[zippath] = Document(f)
-
-        spreadsheet_bytes = None
-
-        if spreadsheet_path:
-            with open(spreadsheet_path, "rb") as f:
-                spreadsheet_bytes = f.read()
 
         return cls(
             transcripts=transcripts, spreadsheet_bytes=spreadsheet_bytes, **kwargs
@@ -395,7 +384,7 @@ class TidyTranscripts(RowWithExtraFields):
 
             # Write any existing rows that might not have been matched to anything.
             for extra_row in extra_data.values():
-                sheet.append(row.as_row())
+                sheet.append(extra_row.as_row())
 
         return wb
 
