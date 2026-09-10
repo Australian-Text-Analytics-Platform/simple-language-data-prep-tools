@@ -3,7 +3,7 @@
 __pycache__/
 *.egg-info/
 notebooks/outputs/
-build/
+/build
 !docs/
 .jupyterlite.doit.db
 .tox/
