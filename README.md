@@ -7,7 +7,7 @@ These tools aim to have a simple user interface and basic configuration options 
 The specific tools included are:
 
 - the Word Transcript Tabulator notebook. Takes a set of interview transcripts in Microsoft Word format (`docx` format only), and converts them into a structured Excel spreadsheet (`xlsx` format).
-- the Tabular to Plaintext notebook. Upload a structured Excel spreadsheet (`xlsx` format), and choose which columns to pull out into separate text files.
+- the Spreadsheet to Plaintext notebook. Upload a structured Excel spreadsheet (`xlsx` format), and choose which columns to pull out into separate text files.
 - the Document Text Extractor notebook. Takes a set of PDF and Word documents (`docx` format), and pulls out the text into either a set of plaintext files, or a structured format like a spreadsheet. This tool does not perform optical character recognition (OCR), but can work with the outputs of tools like [Scribe OCR](https://scribeocr.com/) (also runs in your browser).
 
 
