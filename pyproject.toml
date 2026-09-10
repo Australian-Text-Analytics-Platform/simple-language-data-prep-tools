@@ -17,10 +17,8 @@ classifiers=[
   "Intended Audience :: Science/Research",
 ]
 dependencies = [
-  "python-docx",
-  "openpyxl",
   "ipywidgets",
-  "jupyter",
+  "jupyterlab-server",
   "jupyterlite-core>=0.8.3",
   "jupyterlite-pyodide-kernel[lock]",
 ]
@@ -29,7 +27,12 @@ version="0.0.4"
 
 
 [project.optional-dependencies]
-dev = ["tox"]
+dev = [
+  "tox",
+  "python-docx",
+  "openpyxl",
+  "jupyter"
+]
 
 [project.urls]
 Repository = "https://github.com/AustralianTextAnalyticsPlatform/simple-language-data-prep-tools"

@@ -6,11 +6,12 @@
   },
   "PyodideLockAddon": {
     "enabled": true,
-    "specs": ["ipywidgets", "python-docx", "openpyxl"]
+    "specs": ["ipywidgets", "python-docx", "openpyxl", "widgetsnbextension", "jupyterlab-widgets"],
+    "prefetch_extra": ["ipywidgets", "python-docx", "openpyxl"]
   },
   "PyodideLockOfflineAddon": {
     "enabled": true,
-    "includes": ["ipywidgets", "python-docx", "openpyxl"],
+    "includes": ["ipywidgets", "python-docx", "openpyxl", "widgetsnbextension", "jupyterlab-widgets"],
     "prune": true
   }
 }

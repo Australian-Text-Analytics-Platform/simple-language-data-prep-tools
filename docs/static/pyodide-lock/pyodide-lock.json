@@ -8,7 +8,7 @@
   "packages": {
     "affine": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/affine-2.4.0-py3-none-any.whl",
+      "file_name": "affine-2.4.0-py3-none-any.whl",
       "imports": [
         "affine"
       ],
@@ -184,7 +184,7 @@
       "depends": [
         "argon2-cffi-bindings"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/argon2_cffi-23.1.0-py3-none-any.whl",
+      "file_name": "argon2_cffi-23.1.0-py3-none-any.whl",
       "imports": [
         "argon2"
       ],
@@ -292,7 +292,7 @@
     },
     "atomicwrites": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/atomicwrites-1.4.1-py2.py3-none-any.whl",
+      "file_name": "atomicwrites-1.4.1-py2.py3-none-any.whl",
       "imports": [
         "atomicwrites"
       ],

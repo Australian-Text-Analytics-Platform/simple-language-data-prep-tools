@@ -36,9 +36,9 @@ python -m http.server -d docs 8000
 
 ## Managing Dependencies
 
-1. Top level (abstract) dependencies go in `pyproject.toml`.
-2. A specific known configuration of dependencies is generated from that using `tox -e bump_environment` which uses `pip-compile` from `pip-tools`.
-3. Specific packages from that to be locked in the pyodide distribution are added to `jupyter_lite_config.json` under the `PyodideLockAddon` and `PyodideLockOfflineAddon` sections. 
+1. Top level (abstract) dependencies for building the site go in `pyproject.toml`. Make sure to include any packages that have jupyter extensions, such as `ipywidgets` which depends on `jupyterlab-widgets`.
+2. Specific packages that need to be locked in the pyodide distribution (ie. because you're importing them directly) are added to `jupyter_lite_config.json` under the `PyodideLockAddon` and `PyodideLockOfflineAddon` sections. 
+3. Directly imported dependencies (especially those imported in a module and not the Jupyter notebook directly) should also be added to `prefetch_extras` section, so they're ready and available. The Jupyterlite environment will not retrieve packages until first import, and the detection of imports from other modules outside the notebook is not reliable.
 
 
 ### Dependency Considerations

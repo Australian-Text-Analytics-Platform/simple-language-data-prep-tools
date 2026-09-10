@@ -1,19 +1,18 @@
 {
   "jupyter-config-data": {
-    "appName": "JupyterLite",
+    "appName": "Simple Language Data Prep Tools",
     "appUrl": "./lab",
     "appVersion": "0.8.3",
     "baseUrl": "./",
     "contentsAllJsonFile": "all.json",
+    "contentsStorageDrivers": [
+      "memoryStorageDriver"
+    ],
     "defaultKernelName": "python",
+    "enableMemoryStorage": true,
+    "exposeAppInBrowser": true,
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
-      {
-        "extension": "./extension",
-        "load": "static/remoteEntry.69028c30604e6a06.js",
-        "name": "@jupyter-notebook/lab-extension",
-        "style": "./style"
-      },
       {
         "extension": "./extension",
         "load": "static/remoteEntry.c8c9eed2cdefdeac.js",
@@ -415,7 +414,10 @@
             "comm",
             "ipykernel",
             "ipython",
-            "pyodide-kernel"
+            "ipywidgets",
+            "openpyxl",
+            "pyodide-kernel",
+            "python-docx"
           ]
         },
         "pipliteUrls": [
