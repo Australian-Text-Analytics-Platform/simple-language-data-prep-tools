@@ -2,9 +2,11 @@
 
 ## Scope
 
+Simple data transformation tools that have a simple(ish) upload -> configure -> transform -> download workflow.
+
 - If it can run with few dependencies in the browser
 - If the workflow can be constructed so that each cell in a notebook is independent and does something useful
-- Simple input/output transforms work
+- Simple input/output transformations that help people move from their conventional data formats to tools from other disciplines/that assume other conventions.
 
 ## Setup
 
@@ -12,31 +14,39 @@
 
 ```
 # Install all required development and build dependencies
-pip install .[dev,build-jupyterlite]
-# Integrate nbstripout with git, so we can never check in notebook code cell output. 
-nbstripout --install
+pip install .[dev]
+
 ```
 
+### Building the site
+
+```
+# Building the jupyterlite site
+tox -e build_web
+
+```
+
+### Serving the site locally
+
+```
+# Serve the locally built site on http://localhost:8000
+python -m http.server -d docs 8000
+
+```
 
 ## Managing Dependencies
 
-
-### Dependency Constraints
-
-- Avoid the numerical Python ecosystem: unfortunately just NumPy itself is over 10MB. The pyodide framework we're using is already quite large so we want to avoid dependencies that further compound the download and startup resources needed.
-- Pure Python packages much preferred. Some important packages are already compiled for WASM, but not everything, and sticking to pure Python and the standard library is much preferred.
-- Keep jupyter and ipywidget specific functionality in notebooks, and not in the simple_prep package: we may want to deploy that separately to PYPI as a little toolkit in the future.
+1. Top level (abstract) dependencies go in `pyproject.toml`.
+2. A specific known configuration of dependencies is generated from that using `tox -e bump_environment` which uses `pip-compile` from `pip-tools`.
+3. Specific packages from that to be locked in the pyodide distribution are added to `jupyter_lite_config.json` under the `PyodideLockAddon` and `PyodideLockOfflineAddon` sections. 
 
 
-## Testing and Linting
+### Dependency Considerations
 
-- Standard testing for the utility libraries?
-- TBD: testing for notebook interfaces!
-
-
-### Unknown
-
-Testing the GUI interface of the notebooks?
+- Every dependency is an additional cost in download and startup time for the user: bring in only what's needed. In particular be mindful of the numerical Python ecosystem as just numpy is a 15MiB extra download.
+- Pure Python wheels work well out of the box, but you need to check their dependencies.
+- The pyodide distribution itself includes a number of prebuilt packages, including a range of useful things.
+- A WASM platform tag for wheels was supported in PyPI as mid 2026: this landscape is likely to change quite a bit as more packages built directly for that environment.   
 
 
 

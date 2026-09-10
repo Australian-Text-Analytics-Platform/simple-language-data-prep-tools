@@ -19,18 +19,17 @@ classifiers=[
 dependencies = [
   "python-docx",
   "openpyxl",
-  # TODO - these might actually be a dev/deploy dependency, not necessarily needed for the underlying
-  # data processing packages.
+  "ipywidgets",
   "jupyter",
-  "ipywidgets"
+  "jupyterlite-core>=0.8.3",
+  "jupyterlite-pyodide-kernel[lock]",
 ]
 
 version="0.0.4"
 
 
 [project.optional-dependencies]
-dev = ["pip-tools", "nbstripout", "black"]
-build_jupyterlite = ["jupyterlite-core", "jupyterlite-pyodide-kernel"]
+dev = ["tox"]
 
 [project.urls]
 Repository = "https://github.com/AustralianTextAnalyticsPlatform/simple-language-data-prep-tools"
