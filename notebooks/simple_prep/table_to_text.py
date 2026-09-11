@@ -1,15 +1,16 @@
 import io
 import pathlib
+import time
 import zipfile
 
 from openpyxl import load_workbook
-import ipywidgets
+import ipywidgets as widgets
 from IPython.display import HTML
+
 
 def generate_zip(button):
     with process_output:
         try:
-            print('generating plaintext files')
             output_path = pathlib.Path("outputs")
             output_path.mkdir(exist_ok=True)
 
@@ -24,7 +25,27 @@ def generate_zip(button):
             header = list(ws.iter_rows(min_row=1, max_row=1, values_only=True))[0]
             col_idx = header.index(column)
 
-            with zipfile.ZipFile(output_zip, 'w') as z:
+            # Count rows first to have a proper progress bar
+            n_rows = sum(1 for _ in ws.values) - 1  # account for header row.
+
+            progress_bar = widgets.IntProgress(
+                value=1,
+                min=1,
+                max=n_rows,
+                description="Processing Rows:",
+                bar_style="info",
+                orientation="horizontal",
+                style=description_style,
+                layout=full_width_layout,
+            )
+
+            display(progress_bar)
+
+            last_progress_update = time.monotonic()
+            next_progress_report = 9
+            report_delta = 10
+
+            with zipfile.ZipFile(output_zip, "w") as z:
 
                 rows = enumerate(ws.values)
 
@@ -32,18 +53,39 @@ def generate_zip(button):
                 next(rows)
 
                 for i, row in rows:
-                    z.writestr(f"data/{i + 1}.txt", row[col_idx] or "")
+
+                    # i + 2 as the name because we want it to be an Excel row number,
+                    # which starts at 1, and we have a header.
+                    z.writestr(f"data/{i + 2}.txt", row[col_idx] or "")
+
+                    # Rate limit progress bar updates, adaptively
+                    if i == next_progress_report:
+                        progress_bar.value = i + 1
+
+                        current_time = time.monotonic()
+
+                        if current_time - last_progress_update < 0.5:
+                            report_delta *= 2
+
+                        next_progress_report += report_delta
+                        last_progress_update = current_time
+
+            progress_bar.value = n_rows
 
             display(
                 HTML(
-                    f'<a href="{output_zip}" download="{output_name.value}">Download your zip file</a>'
+                    f'<a href="{output_zip}" download="{output_name.value}">'
+                    "Download your zip file</a>"
                 )
             )
         except Exception as e:
-            print(e)
+            display(e)
+            display("Sorry, something went wrong. The error details are above.")
             raise
 
+
 def update_sheet_names(change):
+    """Update sheet names when a new file is uploaded."""
     spreadsheet = load_workbook(io.BytesIO(change.new[0].content))
     sheets = spreadsheet.sheetnames
     sheet_selector.options = sheets
@@ -53,42 +95,53 @@ def update_sheet_names(change):
     if len(sheets) == 1:
         sheet_selector.value = sheets[0]
 
-def update_column_names(change):
 
+def update_column_names(change):
+    """Update column names when a sheet is selected."""
     sheet = spreadsheet_upload.spreadsheet[change.new]
     header = list(sheet.iter_rows(min_row=1, max_row=1, values_only=True))[0]
     column_selector.options = [col for col in header if isinstance(col, str) and col]
 
-width_layout = ipywidgets.Layout(width='90%', height='2lh')
-process_output = ipywidgets.Output()
-spreadsheet_upload = ipywidgets.FileUpload(
-    accept='.xlsx',
-    description="Upload your spreadsheet (.xlsx)",
-    layout=width_layout
-)
-sheet_selector = ipywidgets.Select(
-    options=[], description="Choose sheet:",
-    style = {'description_width': 'initial'},
-    layout=width_layout
-)
-column_selector = ipywidgets.Select(
-    options=[], description="Choose columns:",
-    style = {'description_width': 'initial'},
-    layout=width_layout
-)
-run_button = ipywidgets.Button(
-    description="Generate text files",
-    layout=width_layout
-)
 
-output_name = ipywidgets.Text("extracted.zip", description='Zip file name:')
+full_width_layout = widgets.Layout(width="95%", height="2lh")
+selector_layout = widgets.Layout(width="95%")
+
+# Make sure the descriptions aren't truncated and are aligned.
+description_style = {"description_width": "25%"}
+process_output = widgets.Output()
+spreadsheet_upload = widgets.FileUpload(
+    accept=".xlsx",
+    description="Upload your spreadsheet (.xlsx)",
+    layout=full_width_layout,
+    style=description_style,
+)
+sheet_selector = widgets.Select(
+    options=[],
+    description="Choose sheet:",
+    style=description_style,
+    layout=selector_layout,
+)
+column_selector = widgets.Select(
+    options=[],
+    description="Choose columns:",
+    style=description_style,
+    layout=selector_layout,
+)
+run_button = widgets.Button(description="Generate text files", layout=full_width_layout)
+
+output_name = widgets.Text(
+    "extracted.zip",
+    description="Zip file name:",
+    style=description_style,
+    layout=selector_layout,
+)
 
 run_button.on_click(generate_zip)
 
-spreadsheet_upload.observe(update_sheet_names, names=['value'])
-sheet_selector.observe(update_column_names, names=['value'])
+spreadsheet_upload.observe(update_sheet_names, names=["value"])
+sheet_selector.observe(update_column_names, names=["value"])
 
-ui = ipywidgets.VBox(
+ui = widgets.VBox(
     [
         spreadsheet_upload,
         sheet_selector,
