@@ -100,7 +100,9 @@ def generate_zip(button):
 
                     # i + 2 as the name because we want it to be an Excel row number,
                     # which starts at 1, and we have a header.
-                    z.writestr(filename, row[col_idx] or "")
+                    z.writestr(
+                        filename, str(row[col_idx] or "").encode(output_encoding.value)
+                    )
 
                     rows_processed += 1
                     row_number += 1
@@ -215,47 +217,66 @@ description_style = {"description_width": "25%"}
 process_output = widgets.Output()
 spreadsheet_upload = widgets.FileUpload(
     accept=".xlsx",
-    description="Upload your spreadsheet (.xlsx)",
+    description="1. Upload your spreadsheet (.xlsx)",
     layout=full_width_layout,
     style=description_style,
 )
 sheet_selector = widgets.Select(
     options=[],
-    description="Sheet:",
+    description="2. Sheet:",
     style=description_style,
     layout=selector_layout,
 )
 
 header_row_selector = widgets.Dropdown(
     options=[],
-    description="Header Row:",
+    description="3. Header Row:",
     style=description_style,
     layout=selector_layout,
 )
 
 text_column_selector = widgets.Select(
     options=[],
-    description="Text column:",
+    description="4. Text column:",
     style=description_style,
     layout=selector_layout,
 )
 
 name_column_selector = widgets.SelectMultiple(
     options=[],
-    description="Filename columns:",
+    description="5. Filename columns:",
     style=description_style,
     layout=selector_layout,
 )
-
-
-run_button = widgets.Button(description="Generate text files", layout=full_width_layout)
+output_encoding = widgets.Dropdown(
+    options=[
+        "utf_32",
+        "utf_32_be",
+        "utf_32_le",
+        "utf_16",
+        "utf_16_be",
+        "utf_16_le",
+        "utf_7",
+        "utf_8",
+        "utf_8_sig",
+    ],
+    value="utf_8",
+    description="6. Text Encoding:",
+    style=description_style,
+    layout=selector_layout,
+)
 
 output_name = widgets.Text(
     "extracted.zip",
-    description="Zip filename:",
+    description="7. Zip filename:",
     style=description_style,
     layout=selector_layout,
 )
+
+run_button = widgets.Button(
+    description="8. Generate text files", layout=full_width_layout
+)
+
 
 run_button.on_click(generate_zip)
 
@@ -272,6 +293,7 @@ ui = widgets.VBox(
         text_column_selector,
         name_column_selector,
         output_name,
+        output_encoding,
         run_button,
         process_output,
     ]
