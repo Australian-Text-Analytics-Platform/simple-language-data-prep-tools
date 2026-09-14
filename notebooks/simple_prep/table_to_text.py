@@ -1,7 +1,9 @@
 import collections
 import io
+import math
 import pathlib
 import time
+from urllib.parse import quote
 import zipfile
 
 from IPython.display import HTML
@@ -20,11 +22,24 @@ def generate_zip(button):
 
             output_zip = output_path / output_name.value
             sheet = sheet_selector.value
-            column = column_selector.value
+            text_column = text_column_selector.value
 
             ws = spreadsheet_upload.spreadsheet[sheet]
-            header = list(ws.iter_rows(min_row=1, max_row=1, values_only=True))[0]
-            col_idx = header.index(column)
+            header = list(
+                ws.iter_rows(
+                    min_row=header_row_selector.value,
+                    max_row=header_row_selector.value,
+                    values_only=True,
+                )
+            )[0]
+            # Note we don't prune here as we need absolute offsets regardless of empty
+            # columns.
+            header = [str(col) for col in header]
+            col_idx = header.index(text_column)
+
+            filename_col_idxs = [
+                header.index(col) for col in name_column_selector.value
+            ]
 
             # Count rows first to have a proper progress bar
             n_rows = sum(1 for _ in ws.values) - 1  # account for header row.
@@ -42,26 +57,57 @@ def generate_zip(button):
 
             display(progress_bar)
 
+            # Calculate the number of digits needed to keep row numbers all the same
+            # size as base 10 strings
+            row_number_digits = 1
+            if n_rows:
+                row_number_digits = math.floor(math.log10(n_rows)) + 1
+
+            filename_template = f"data/{{}}row{{:0{row_number_digits}}}.txt"
+
+            # For not reporting updates too often, just enough to show progress, and
+            # adapting to the size of rows and the computing environment.
             last_progress_update = time.monotonic()
-            next_progress_report = 9
+            next_progress_report = 10
             report_delta = 10
+
+            # Keeping track of how many rows to process, regardless of the location of
+            # the header row.
+            rows_processed = 0
 
             with zipfile.ZipFile(output_zip, "w") as z:
 
-                rows = enumerate(ws.values)
+                row_number = header_row_selector.value
+                rows = ws.iter_rows(
+                    min_row=row_number,
+                    values_only=True,
+                )
 
                 # Skip the header
                 next(rows)
+                row_number += 1
 
-                for i, row in rows:
+                for row in rows:
+
+                    naming_cols = quote(
+                        "_".join(str(row[col_idx]) for col_idx in filename_col_idxs),
+                        safe="",
+                    )
+                    if naming_cols:
+                        naming_cols += "_"
+
+                    filename = filename_template.format(naming_cols, row_number)
 
                     # i + 2 as the name because we want it to be an Excel row number,
                     # which starts at 1, and we have a header.
-                    z.writestr(f"data/{i + 2}.txt", row[col_idx] or "")
+                    z.writestr(filename, row[col_idx] or "")
+
+                    rows_processed += 1
+                    row_number += 1
 
                     # Rate limit progress bar updates, adaptively
-                    if i == next_progress_report:
-                        progress_bar.value = i + 1
+                    if rows_processed == next_progress_report:
+                        progress_bar.value = rows_processed
 
                         current_time = time.monotonic()
 
@@ -127,7 +173,7 @@ def update_header_rows(change):
         header_row_selector.value = header_options[0][1]
 
 
-def update_column_names(change):
+def update_text_columns(change):
     """
     Update column names when a new header row is chosen.
 
@@ -141,6 +187,24 @@ def update_column_names(change):
         )
     )[0]
     text_column_selector.options = [str(col) for col in header if col]
+
+
+def update_filename_columns(change):
+    """
+    Update filename columns for textfile naming when a text column is selected.
+
+    """
+    sheet = spreadsheet_upload.spreadsheet[sheet_selector.value]
+    header = list(
+        sheet.iter_rows(
+            min_row=header_row_selector.value,
+            max_row=header_row_selector.value,
+            values_only=True,
+        )
+    )[0]
+    name_column_selector.options = [
+        str(col) for col in header if col and str(col) != text_column_selector.value
+    ]
 
 
 full_width_layout = widgets.Layout(width="95%", height="2lh")
@@ -176,7 +240,7 @@ text_column_selector = widgets.Select(
     layout=selector_layout,
 )
 
-name_column_selector = widgets.Select(
+name_column_selector = widgets.SelectMultiple(
     options=[],
     description="Filename columns:",
     style=description_style,
@@ -197,7 +261,8 @@ run_button.on_click(generate_zip)
 
 spreadsheet_upload.observe(update_sheet_names, names=["value"])
 sheet_selector.observe(update_header_rows, names=["value"])
-header_row_selector.observe(update_column_names, names=["value"])
+header_row_selector.observe(update_text_columns, names=["value"])
+text_column_selector.observe(update_filename_columns, names=["value"])
 
 ui = widgets.VBox(
     [
