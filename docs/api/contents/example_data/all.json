@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-09-15T06:12:52.327183Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-06-04T03:19:19.849474Z",
+      "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "name": "transcript_format_example.docx",
+      "path": "example_data/transcript_format_example.docx",
+      "size": 7776,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-09-15T06:12:52.327183Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-06-04T03:19:19.849474Z",
+      "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "name": "combined_transcripts.xlsx",
+      "path": "example_data/combined_transcripts.xlsx",
+      "size": 11297,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-09-15T06:12:52.327183Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-09-15T06:12:52.327183Z",
+  "mimetype": null,
+  "name": "example_data",
+  "path": "example_data",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

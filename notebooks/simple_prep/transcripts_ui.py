@@ -22,9 +22,16 @@ zip_upload = widgets.FileUpload(
 )
 xlsx_upload = widgets.FileUpload(
     accept=".xlsx",
-    description="(Optional): Upload a matched spreadsheet with extra information to merge in (.xlsx)",
+    description="Upload a matched spreadsheet with extra information to merge in (.xlsx)",
     layout=full_width_layout,
 )
+output_name = widgets.Text(
+    "combined_transcripts.xlsx",
+    description="Output filename",
+    style=description_style,
+    layout=selector_layout,
+)
+
 run_button = widgets.Button(
     description="Generate spreadsheet", layout=full_width_layout
 )
@@ -51,10 +58,17 @@ fill_with_previous_speaker = widgets.Checkbox(
 def allow_generating_after_upload(change):
     process_output.clear_output()
     with process_output:
-        display(xlsx_upload)
-        display(run_button)
-        display(speaker_separator)
-        display(fill_with_previous_speaker)
+        display(
+            widgets.VBox(
+                [
+                    xlsx_upload,
+                    output_name,
+                    speaker_separator,
+                    fill_with_previous_speaker,
+                    run_button,
+                ]
+            )
+        )
 
 
 zip_upload.observe(allow_generating_after_upload, names=["value"])
@@ -76,12 +90,16 @@ def run_process(button):
         )
         generated_transcript = transcripts.as_xlsx()
 
-        pathlib.Path("outputs").mkdir(exist_ok=True)
-        generated_transcript.save("outputs/combined_transcripts.xlsx")
+        output_folder = pathlib.Path("outputs")
+        output_folder.mkdir(exist_ok=True)
+
+        output_file = output_folder / output_name.value
+
+        generated_transcript.save(output_file)
 
         display(
             HTML(
-                '<a href="outputs/combined_transcripts.xlsx" download="combined_transcripts.xlsx">'
+                f'<a href="{output_file}" download="{output_name.value}">'
                 "Download your combined transcripts"
                 "</a>"
             )
