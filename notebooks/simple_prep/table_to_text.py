@@ -10,6 +10,8 @@ from IPython.display import HTML
 from openpyxl import load_workbook
 import ipywidgets as widgets
 
+from widget_layouts import full_width_layout, selector_layout, description_style
+
 
 def generate_zip(button):
     with process_output:
@@ -238,11 +240,6 @@ def update_filename_columns(change):
     ]
 
 
-full_width_layout = widgets.Layout(width="95%", height="2lh")
-selector_layout = widgets.Layout(width="95%")
-
-# Make sure the descriptions aren't truncated and are aligned.
-description_style = {"description_width": "25%"}
 process_output = widgets.Output()
 spreadsheet_upload = widgets.FileUpload(
     accept=".xlsx",
