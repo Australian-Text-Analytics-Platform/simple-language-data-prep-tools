@@ -32,7 +32,8 @@ dev = [
   "tox",
   "python-docx",
   "openpyxl",
-  "jupyter"
+  "jupyter",
+  "pypdf"
 ]
 
 [project.urls]

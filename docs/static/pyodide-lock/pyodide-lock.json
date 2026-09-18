@@ -24,7 +24,7 @@
       "depends": [
         "affine"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/affine-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/affine-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "affine-tests",
@@ -36,7 +36,7 @@
     },
     "aiohappyeyeballs": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/aiohappyeyeballs-2.6.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/aiohappyeyeballs-2.6.1-py3-none-any.whl",
       "imports": [
         "aiohappyeyeballs"
       ],
@@ -59,7 +59,7 @@
         "multidict",
         "yarl"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/aiohttp-3.13.5-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/aiohttp-3.13.5-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "aiohttp"
       ],
@@ -75,7 +75,7 @@
       "depends": [
         "aiohttp"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/aiohttp-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/aiohttp-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "aiohttp-tests",
@@ -89,7 +89,7 @@
       "depends": [
         "frozenlist"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/aiosignal-1.4.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/aiosignal-1.4.0-py3-none-any.whl",
       "imports": [
         "aiosignal"
       ],
@@ -109,7 +109,7 @@
         "packaging",
         "narwhals"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/altair-6.0.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/altair-6.0.0-py3-none-any.whl",
       "imports": [
         "altair"
       ],
@@ -123,7 +123,7 @@
     },
     "annotated-doc": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/annotated_doc-0.0.4-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/annotated_doc-0.0.4-py3-none-any.whl",
       "imports": [
         "annotated_doc"
       ],
@@ -137,7 +137,7 @@
     },
     "annotated-types": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/annotated_types-0.7.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/annotated_types-0.7.0-py3-none-any.whl",
       "imports": [
         "annotated_types"
       ],
@@ -153,7 +153,7 @@
       "depends": [
         "annotated-types"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/annotated-types-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/annotated-types-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "annotated-types-tests",
@@ -168,7 +168,7 @@
         "sniffio",
         "typing-extensions"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/anyio-4.13.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/anyio-4.13.0-py3-none-any.whl",
       "imports": [
         "anyio"
       ],
@@ -200,7 +200,7 @@
       "depends": [
         "cffi"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/argon2_cffi_bindings-25.1.0-cp314-abi3-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/argon2_cffi_bindings-25.1.0-cp314-abi3-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "_argon2_cffi_bindings"
       ],
@@ -220,7 +220,7 @@
         "pyyaml",
         "astropy_iers_data"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/astropy-7.2.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/astropy-7.2.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "astropy"
       ],
@@ -234,7 +234,7 @@
     },
     "astropy-iers-data": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/astropy_iers_data-0.2026.4.1.15.5.49-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/astropy_iers_data-0.2026.4.1.15.5.49-py3-none-any.whl",
       "imports": [
         "astropy_iers_data"
       ],
@@ -250,7 +250,7 @@
       "depends": [
         "astropy_iers_data"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/astropy-iers-data-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/astropy-iers-data-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "astropy_iers_data-tests",
@@ -264,7 +264,7 @@
       "depends": [
         "six"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/asttokens-3.0.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/asttokens-3.0.1-py3-none-any.whl",
       "imports": [
         "asttokens"
       ],
@@ -278,7 +278,7 @@
     },
     "async-timeout": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/async_timeout-5.0.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/async_timeout-5.0.1-py3-none-any.whl",
       "imports": [
         "async_timeout"
       ],
@@ -308,7 +308,7 @@
       "depends": [
         "six"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/attrs-26.1.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/attrs-26.1.0-py3-none-any.whl",
       "imports": [
         "attr",
         "attrs"
@@ -323,7 +323,7 @@
     },
     "audioop-lts": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/audioop_lts-0.2.2-cp313-abi3-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/audioop_lts-0.2.2-cp313-abi3-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "audioop"
       ],
@@ -342,7 +342,7 @@
         "setuptools",
         "annotated-types"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/b2d-0.7.4-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/b2d-0.7.4-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "b2d"
       ],
@@ -356,7 +356,7 @@
     },
     "bcrypt": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/bcrypt-5.0.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/bcrypt-5.0.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "bcrypt"
       ],
@@ -373,7 +373,7 @@
         "soupsieve",
         "typing-extensions"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/beautifulsoup4-4.14.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/beautifulsoup4-4.14.3-py3-none-any.whl",
       "imports": [
         "bs4"
       ],
@@ -389,7 +389,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/bilby_cython-0.5.4-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/bilby_cython-0.5.4-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "bilby_cython"
       ],
@@ -405,7 +405,7 @@
       "depends": [
         "bilby.cython"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/bilby-cython-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/bilby-cython-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "bilby.cython-tests",
@@ -419,7 +419,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/biopython-1.87-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/biopython-1.87-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "Bio",
         "BioSQL"
@@ -434,7 +434,7 @@
     },
     "bitarray": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/bitarray-3.8.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/bitarray-3.8.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "bitarray"
       ],
@@ -450,7 +450,7 @@
       "depends": [
         "bitarray"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/bitarray-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/bitarray-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "bitarray-tests",
@@ -464,7 +464,7 @@
       "depends": [
         "bitarray"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/bitstring-4.4.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/bitstring-4.4.0-py3-none-any.whl",
       "imports": [
         "bitstring"
       ],
@@ -482,7 +482,7 @@
         "packaging",
         "six"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/bleach-6.3.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/bleach-6.3.0-py3-none-any.whl",
       "imports": [
         "bleach"
       ],
@@ -507,7 +507,7 @@
         "pyyaml",
         "xyzservices"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/bokeh-3.9.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/bokeh-3.9.0-py3-none-any.whl",
       "imports": [
         "bokeh"
       ],
@@ -523,7 +523,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/boost_histogram-1.7.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/boost_histogram-1.7.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "boost_histogram"
       ],
@@ -539,7 +539,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/bottleneck-1.6.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/bottleneck-1.6.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "bottleneck"
       ],
@@ -553,7 +553,7 @@
     },
     "brotli": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/brotli-1.2.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/brotli-1.2.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "brotli"
       ],
@@ -567,7 +567,7 @@
     },
     "cachetools": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cachetools-7.0.5-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cachetools-7.0.5-py3-none-any.whl",
       "imports": [
         "cachetools"
       ],
@@ -587,7 +587,7 @@
         "matplotlib",
         "scipy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cartopy-0.25.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cartopy-0.25.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "cartopy"
       ],
@@ -603,7 +603,7 @@
       "depends": [
         "Cartopy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cartopy-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cartopy-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "Cartopy-tests",
@@ -617,7 +617,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/casadi-3.7.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/casadi-3.7.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "casadi"
       ],
@@ -631,7 +631,7 @@
     },
     "cbor-diag": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cbor_diag-1.1.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cbor_diag-1.1.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "cbor_diag"
       ],
@@ -645,7 +645,7 @@
     },
     "certifi": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/certifi-2026.4.22-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/certifi-2026.4.22-py3-none-any.whl",
       "imports": [
         "certifi"
       ],
@@ -661,7 +661,7 @@
       "depends": [
         "pycparser"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cffi-2.0.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cffi-2.0.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "cffi"
       ],
@@ -677,7 +677,7 @@
       "depends": [
         "cffi"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cffi_example-0.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cffi_example-0.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "cffi_example"
       ],
@@ -693,7 +693,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cftime-1.6.5-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cftime-1.6.5-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "cftime"
       ],
@@ -707,7 +707,7 @@
     },
     "charset-normalizer": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/charset_normalizer-3.4.7-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/charset_normalizer-3.4.7-py3-none-any.whl",
       "imports": [
         "charset_normalizer"
       ],
@@ -724,7 +724,7 @@
         "numpy",
         "scipy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/clarabel-0.11.1-cp39-abi3-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/clarabel-0.11.1-cp39-abi3-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "clarabel"
       ],
@@ -738,7 +738,7 @@
     },
     "click": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/click-8.3.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/click-8.3.1-py3-none-any.whl",
       "imports": [
         "click"
       ],
@@ -754,7 +754,7 @@
       "depends": [
         "click"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cligj-0.7.2-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cligj-0.7.2-py3-none-any.whl",
       "imports": [
         "cligj"
       ],
@@ -770,7 +770,7 @@
       "depends": [
         "cffi"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/clingo-5.8.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/clingo-5.8.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "clingo"
       ],
@@ -784,7 +784,7 @@
     },
     "cloudpickle": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cloudpickle-3.1.2-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cloudpickle-3.1.2-py3-none-any.whl",
       "imports": [
         "cloudpickle"
       ],
@@ -803,7 +803,7 @@
         "more-itertools",
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cmyt-2.0.2-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cmyt-2.0.2-py3-none-any.whl",
       "imports": [
         "cmyt"
       ],
@@ -817,7 +817,7 @@
     },
     "cobs": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cobs-1.2.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cobs-1.2.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "cobs"
       ],
@@ -833,7 +833,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/colorspacious-1.1.2-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/colorspacious-1.1.2-py2.py3-none-any.whl",
       "imports": [
         "colorspacious"
       ],
@@ -863,7 +863,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/contourpy-1.3.3-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/contourpy-1.3.3-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "contourpy"
       ],
@@ -880,7 +880,7 @@
         "numpy",
         "matplotlib"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/coolprop-7.2.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/coolprop-7.2.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "CoolProp"
       ],
@@ -896,7 +896,7 @@
       "depends": [
         "coolprop"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/coolprop-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/coolprop-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "coolprop-tests",
@@ -908,7 +908,7 @@
     },
     "coverage": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/coverage-7.13.5-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/coverage-7.13.5-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "coverage"
       ],
@@ -922,7 +922,7 @@
     },
     "crc32c": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/crc32c-2.8-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/crc32c-2.8-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "crc32c"
       ],
@@ -936,7 +936,7 @@
     },
     "crcmod": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/crcmod-1.7-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/crcmod-1.7-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "crcmod"
       ],
@@ -953,7 +953,7 @@
         "six",
         "cffi"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cryptography-47.0.0-cp314-abi3-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cryptography-47.0.0-cp314-abi3-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "cryptography"
       ],
@@ -967,7 +967,7 @@
     },
     "cssselect": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cssselect-1.4.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cssselect-1.4.0-py3-none-any.whl",
       "imports": [
         "cssselect"
       ],
@@ -985,7 +985,7 @@
         "scipy",
         "clarabel"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cvxpy_base-1.8.2-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cvxpy_base-1.8.2-py3-none-any.whl",
       "imports": [
         "cvxpy"
       ],
@@ -1001,7 +1001,7 @@
       "depends": [
         "cvxpy-base"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cvxpy-base-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cvxpy-base-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "cvxpy-base-tests",
@@ -1015,7 +1015,7 @@
       "depends": [
         "six"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cycler-0.12.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cycler-0.12.1-py3-none-any.whl",
       "imports": [
         "cycler"
       ],
@@ -1029,7 +1029,7 @@
     },
     "cysignals": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cysignals-1.12.3-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cysignals-1.12.3-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "cysignals"
       ],
@@ -1045,7 +1045,7 @@
       "depends": [
         "toolz"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cytoolz-1.1.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cytoolz-1.1.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "cytoolz"
       ],
@@ -1061,7 +1061,7 @@
       "depends": [
         "cytoolz"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/cytoolz-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/cytoolz-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "cytoolz-tests",
@@ -1073,7 +1073,7 @@
     },
     "decorator": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/decorator-5.2.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/decorator-5.2.1-py3-none-any.whl",
       "imports": [
         "decorator"
       ],
@@ -1090,7 +1090,7 @@
         "attrs",
         "ruamel.yaml"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/demes-0.2.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/demes-0.2.3-py3-none-any.whl",
       "imports": [
         "demes"
       ],
@@ -1106,7 +1106,7 @@
       "depends": [
         "wrapt"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/deprecated-1.3.1-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/deprecated-1.3.1-py2.py3-none-any.whl",
       "imports": [
         "deprecated"
       ],
@@ -1122,7 +1122,7 @@
       "depends": [
         "packaging"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/deprecation-2.1.0-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/deprecation-2.1.0-py2.py3-none-any.whl",
       "imports": [
         "deprecation"
       ],
@@ -1136,7 +1136,7 @@
     },
     "diskcache": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/diskcache-5.6.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/diskcache-5.6.3-py3-none-any.whl",
       "imports": [
         "diskcache"
       ],
@@ -1150,7 +1150,7 @@
     },
     "distlib": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/distlib-0.4.0-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/distlib-0.4.0-py2.py3-none-any.whl",
       "imports": [
         "distlib"
       ],
@@ -1164,7 +1164,7 @@
     },
     "distro": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/distro-1.9.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/distro-1.9.0-py3-none-any.whl",
       "imports": [
         "distro"
       ],
@@ -1178,7 +1178,7 @@
     },
     "dnspython": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/dnspython-2.8.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/dnspython-2.8.0-py3-none-any.whl",
       "imports": [
         "dns"
       ],
@@ -1192,7 +1192,7 @@
     },
     "docutils": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/docutils-0.22.4-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/docutils-0.22.4-py3-none-any.whl",
       "imports": [
         "docutils"
       ],
@@ -1208,7 +1208,7 @@
       "depends": [
         "pyyaml"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/donfig-0.8.1.post1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/donfig-0.8.1.post1-py3-none-any.whl",
       "imports": [
         "donfig"
       ],
@@ -1224,7 +1224,7 @@
       "depends": [
         "donfig"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/donfig-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/donfig-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "donfig-tests",
@@ -1236,7 +1236,7 @@
     },
     "duckdb": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/duckdb-1.5.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/duckdb-1.5.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "duckdb"
       ],
@@ -1266,7 +1266,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/ewah_bool_utils-1.3.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/ewah_bool_utils-1.3.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "ewah_bool_utils"
       ],
@@ -1282,7 +1282,7 @@
       "depends": [
         "ewah_bool_utils"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/ewah-bool-utils-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/ewah-bool-utils-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "ewah_bool_utils-tests",
@@ -1294,7 +1294,7 @@
     },
     "exceptiongroup": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/exceptiongroup-1.3.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/exceptiongroup-1.3.1-py3-none-any.whl",
       "imports": [
         "exceptiongroup"
       ],
@@ -1308,7 +1308,7 @@
     },
     "executing": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/executing-2.2.1-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/executing-2.2.1-py2.py3-none-any.whl",
       "imports": [
         "executing"
       ],
@@ -1329,7 +1329,7 @@
         "anyio",
         "annotated-doc"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/fastapi-0.136.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/fastapi-0.136.1-py3-none-any.whl",
       "imports": [
         "fastapi"
       ],
@@ -1350,7 +1350,7 @@
         "click",
         "cligj"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/fiona-1.10.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/fiona-1.10.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "fiona"
       ],
@@ -1364,7 +1364,7 @@
     },
     "fonttools": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/fonttools-4.62.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/fonttools-4.62.1-py3-none-any.whl",
       "imports": [
         "fontTools"
       ],
@@ -1378,7 +1378,7 @@
     },
     "freesasa": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/freesasa-2.2.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/freesasa-2.2.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "freesasa"
       ],
@@ -1392,7 +1392,7 @@
     },
     "frozenlist": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/frozenlist-1.8.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/frozenlist-1.8.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "frozenlist"
       ],
@@ -1406,7 +1406,7 @@
     },
     "fsspec": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/fsspec-2026.3.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/fsspec-2026.3.0-py3-none-any.whl",
       "imports": [
         "fsspec"
       ],
@@ -1422,7 +1422,7 @@
       "depends": [
         "fsspec"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/fsspec-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/fsspec-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "fsspec-tests",
@@ -1434,7 +1434,7 @@
     },
     "future": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/future-1.0.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/future-1.0.0-py3-none-any.whl",
       "imports": [
         "future"
       ],
@@ -1450,7 +1450,7 @@
       "depends": [
         "future"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/future-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/future-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "future-tests",
@@ -1469,7 +1469,7 @@
         "future",
         "setuptools"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/galpy-1.11.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/galpy-1.11.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "galpy"
       ],
@@ -1489,7 +1489,7 @@
         "packaging",
         "pandas"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/geopandas-1.1.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/geopandas-1.1.3-py3-none-any.whl",
       "imports": [
         "geopandas"
       ],
@@ -1505,7 +1505,7 @@
       "depends": [
         "geopandas"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/geopandas-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/geopandas-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "geopandas-tests",
@@ -1517,7 +1517,7 @@
     },
     "gmpy2": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/gmpy2-2.3.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/gmpy2-2.3.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "gmpy2"
       ],
@@ -1531,7 +1531,7 @@
     },
     "google-crc32c": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/google_crc32c-1.8.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/google_crc32c-1.8.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "google_crc32c"
       ],
@@ -1545,7 +1545,7 @@
     },
     "h11": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/h11-0.16.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/h11-0.16.0-py3-none-any.whl",
       "imports": [
         "h11"
       ],
@@ -1559,7 +1559,7 @@
     },
     "h3": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/h3-4.4.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/h3-4.4.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "h3"
       ],
@@ -1576,7 +1576,7 @@
         "numpy",
         "pkgconfig"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/h5py-3.13.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/h5py-3.13.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "h5py"
       ],
@@ -1592,7 +1592,7 @@
       "depends": [
         "h5py"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/h5py-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/h5py-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "h5py-tests",
@@ -1607,7 +1607,7 @@
         "numpy",
         "astropy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/healpy-1.19.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/healpy-1.19.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "healpy"
       ],
@@ -1623,7 +1623,7 @@
       "depends": [
         "healpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/healpy-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/healpy-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "healpy-tests",
@@ -1637,7 +1637,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/highspy-1.13.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/highspy-1.13.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "highspy"
       ],
@@ -1654,7 +1654,7 @@
         "webencodings",
         "six"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/html5lib-1.1-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/html5lib-1.1-py2.py3-none-any.whl",
       "imports": [
         "html5lib"
       ],
@@ -1671,7 +1671,7 @@
         "certifi",
         "h11"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/httpcore-1.0.9-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/httpcore-1.0.9-py3-none-any.whl",
       "imports": [
         "httpcore"
       ],
@@ -1685,7 +1685,7 @@
     },
     "httpx": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/httpx-0.28.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/httpx-0.28.1-py3-none-any.whl",
       "imports": [
         "httpx"
       ],
@@ -1699,7 +1699,7 @@
     },
     "idna": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/idna-3.11-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/idna-3.11-py3-none-any.whl",
       "imports": [
         "idna"
       ],
@@ -1715,7 +1715,7 @@
       "depends": [
         "texttable"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/igraph-1.0.0-cp39-abi3-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/igraph-1.0.0-cp39-abi3-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "igraph"
       ],
@@ -1732,7 +1732,7 @@
         "numpy",
         "pillow"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/imageio-2.37.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/imageio-2.37.3-py3-none-any.whl",
       "imports": [
         "imageio"
       ],
@@ -1748,7 +1748,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/iminuit-2.30.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/iminuit-2.30.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "iminuit"
       ],
@@ -1762,7 +1762,7 @@
     },
     "iniconfig": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/iniconfig-2.3.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/iniconfig-2.3.0-py3-none-any.whl",
       "imports": [
         "iniconfig"
       ],
@@ -1785,7 +1785,7 @@
         "ply",
         "libngspice"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/inspice-1.7.0.5-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/inspice-1.7.0.5-py3-none-any.whl",
       "imports": [
         "InSpice"
       ],
@@ -1808,7 +1808,7 @@
       "install_dir": "site",
       "name": "ipykernel",
       "package_type": "package",
-      "sha256": "262f3578513d1e8c920a73cf14d2ebcd90da15baa4a3682baa2ef8cdd4031923",
+      "sha256": "8447aa1ccb644458ce5a9af98745155fdfa693f68dd71cee1d721c6278583391",
       "tool": {},
       "unvendored_tests": false,
       "version": "6.9.2"
@@ -1827,7 +1827,7 @@
         "traitlets",
         "wcwidth"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/ipython-9.12.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/ipython-9.12.0-py3-none-any.whl",
       "imports": [
         "IPython"
       ],
@@ -1859,7 +1859,7 @@
       "depends": [
         "ipython"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/ipython-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/ipython-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "ipython-tests",
@@ -1893,7 +1893,7 @@
       "depends": [
         "parso"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/jedi-0.19.2-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/jedi-0.19.2-py2.py3-none-any.whl",
       "imports": [
         "jedi"
       ],
@@ -1909,7 +1909,7 @@
       "depends": [
         "jedi"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/jedi-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/jedi-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "jedi-tests",
@@ -1923,7 +1923,7 @@
       "depends": [
         "markupsafe"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/jinja2-3.1.6-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/jinja2-3.1.6-py3-none-any.whl",
       "imports": [
         "jinja2"
       ],
@@ -1937,7 +1937,7 @@
     },
     "jiter": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/jiter-0.13.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/jiter-0.13.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "jiter"
       ],
@@ -1951,7 +1951,7 @@
     },
     "joblib": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/joblib-1.5.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/joblib-1.5.3-py3-none-any.whl",
       "imports": [
         "joblib"
       ],
@@ -1967,7 +1967,7 @@
       "depends": [
         "joblib"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/joblib-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/joblib-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "joblib-tests",
@@ -1981,7 +1981,7 @@
       "depends": [
         "jsonpointer"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/jsonpatch-1.33-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/jsonpatch-1.33-py2.py3-none-any.whl",
       "imports": [
         "jsonpatch"
       ],
@@ -1995,7 +1995,7 @@
     },
     "jsonpointer": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/jsonpointer-3.1.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/jsonpointer-3.1.1-py3-none-any.whl",
       "imports": [
         "jsonpointer"
       ],
@@ -2014,7 +2014,7 @@
         "referencing",
         "jsonschema_specifications"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/jsonschema-4.26.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/jsonschema-4.26.0-py3-none-any.whl",
       "imports": [
         "jsonschema"
       ],
@@ -2030,7 +2030,7 @@
       "depends": [
         "referencing"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/jsonschema_specifications-2025.9.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/jsonschema_specifications-2025.9.1-py3-none-any.whl",
       "imports": [
         "jsonschema_specifications"
       ],
@@ -2046,7 +2046,7 @@
       "depends": [
         "jsonschema_specifications"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/jsonschema-specifications-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/jsonschema-specifications-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "jsonschema_specifications-tests",
@@ -2060,7 +2060,7 @@
       "depends": [
         "jsonschema"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/jsonschema-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/jsonschema-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "jsonschema-tests",
@@ -2086,7 +2086,7 @@
     },
     "kiwisolver": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/kiwisolver-1.5.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/kiwisolver-1.5.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "kiwisolver"
       ],
@@ -2100,7 +2100,7 @@
     },
     "lakers-python": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/lakers_python-0.6.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/lakers_python-0.6.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "lakers"
       ],
@@ -2114,7 +2114,7 @@
     },
     "lazy-loader": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/lazy_loader-0.5-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/lazy_loader-0.5-py3-none-any.whl",
       "imports": [
         "lazy_loader"
       ],
@@ -2128,7 +2128,7 @@
     },
     "lazy-object-proxy": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/lazy_object_proxy-1.12.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/lazy_object_proxy-1.12.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "lazy_object_proxy"
       ],
@@ -2142,7 +2142,7 @@
     },
     "libblis": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/libblis-2.1.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/libblis-2.1.zip",
       "imports": [],
       "install_dir": "dynlib",
       "name": "libblis",
@@ -2154,7 +2154,7 @@
     },
     "libcrc32c": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/libcrc32c-1.1.0.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/libcrc32c-1.1.0.zip",
       "imports": [],
       "install_dir": "dynlib",
       "name": "libcrc32c",
@@ -2168,7 +2168,7 @@
       "depends": [
         "pyyaml"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/libcst-1.8.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/libcst-1.8.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "libcst"
       ],
@@ -2184,7 +2184,7 @@
       "depends": [
         "libcst"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/libcst-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/libcst-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "libcst-tests",
@@ -2198,7 +2198,7 @@
       "depends": [
         "libgeos"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/libgdal-3.8.3.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/libgdal-3.8.3.zip",
       "imports": [],
       "install_dir": "dynlib",
       "name": "libgdal",
@@ -2210,7 +2210,7 @@
     },
     "libgeos": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/libgeos-3.12.1.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/libgeos-3.12.1.zip",
       "imports": [],
       "install_dir": "dynlib",
       "name": "libgeos",
@@ -2222,7 +2222,7 @@
     },
     "libhdf5": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/libhdf5-1.12.1.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/libhdf5-1.12.1.zip",
       "imports": [],
       "install_dir": "dynlib",
       "name": "libhdf5",
@@ -2234,7 +2234,7 @@
     },
     "libheif": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/libheif-1.12.0.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/libheif-1.12.0.zip",
       "imports": [],
       "install_dir": "dynlib",
       "name": "libheif",
@@ -2246,7 +2246,7 @@
     },
     "libngspice": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/libngspice-46.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/libngspice-46.zip",
       "imports": [],
       "install_dir": "dynlib",
       "name": "libngspice",
@@ -2258,7 +2258,7 @@
     },
     "libopenblas": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/libopenblas-0.3.31.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/libopenblas-0.3.31.zip",
       "imports": [],
       "install_dir": "dynlib",
       "name": "libopenblas",
@@ -2270,7 +2270,7 @@
     },
     "libproj": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/libproj-9.6.2.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/libproj-9.6.2.zip",
       "imports": [],
       "install_dir": "dynlib",
       "name": "libproj",
@@ -2282,7 +2282,7 @@
     },
     "librt": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/librt-0.8.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/librt-0.8.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "librt"
       ],
@@ -2298,7 +2298,7 @@
       "depends": [
         "libopenblas"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/libsuitesparse-5.11.0.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/libsuitesparse-5.11.0.zip",
       "imports": [],
       "install_dir": "dynlib",
       "name": "libsuitesparse",
@@ -2310,7 +2310,7 @@
     },
     "libtaglib": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/libtaglib-2.1.1.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/libtaglib-2.1.1.zip",
       "imports": [],
       "install_dir": "dynlib",
       "name": "libtaglib",
@@ -2326,7 +2326,7 @@
         "scipy",
         "scikit-learn"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/lightgbm-4.6.0-py3-none-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/lightgbm-4.6.0-py3-none-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "lightgbm"
       ],
@@ -2342,7 +2342,7 @@
       "depends": [
         "typing-extensions"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/logbook-1.9.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/logbook-1.9.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "logbook"
       ],
@@ -2356,7 +2356,7 @@
     },
     "lxml": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/lxml-6.0.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/lxml-6.0.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "lxml"
       ],
@@ -2370,7 +2370,7 @@
     },
     "lz4": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/lz4-4.4.5-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/lz4-4.4.5-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "lz4"
       ],
@@ -2384,7 +2384,7 @@
     },
     "markupsafe": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/markupsafe-3.0.3-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/markupsafe-3.0.3-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "markupsafe"
       ],
@@ -2409,7 +2409,7 @@
         "python-dateutil",
         "pytz"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/matplotlib-3.10.8-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/matplotlib-3.10.8-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pylab",
         "mpl_toolkits",
@@ -2427,7 +2427,7 @@
       "depends": [
         "traitlets"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/matplotlib_inline-0.2.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/matplotlib_inline-0.2.1-py3-none-any.whl",
       "imports": [
         "matplotlib-inline"
       ],
@@ -2443,7 +2443,7 @@
       "depends": [
         "matplotlib"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/matplotlib-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/matplotlib-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "matplotlib-tests",
@@ -2455,7 +2455,7 @@
     },
     "memory-allocator": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/memory_allocator-0.2.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/memory_allocator-0.2.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "memory_allocator"
       ],
@@ -2469,7 +2469,7 @@
     },
     "micropip": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/micropip-0.11.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/micropip-0.11.1-py3-none-any.whl",
       "imports": [
         "micropip"
       ],
@@ -2485,7 +2485,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/ml_dtypes-0.5.4-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/ml_dtypes-0.5.4-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "ml_dtypes"
       ],
@@ -2499,7 +2499,7 @@
     },
     "mmh3": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/mmh3-5.2.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/mmh3-5.2.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "mmh3"
       ],
@@ -2513,7 +2513,7 @@
     },
     "more-itertools": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/more_itertools-11.0.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/more_itertools-11.0.1-py3-none-any.whl",
       "imports": [
         "more_itertools"
       ],
@@ -2527,7 +2527,7 @@
     },
     "mpmath": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/mpmath-1.4.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/mpmath-1.4.1-py3-none-any.whl",
       "imports": [
         "mpmath"
       ],
@@ -2543,7 +2543,7 @@
       "depends": [
         "mpmath"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/mpmath-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/mpmath-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "mpmath-tests",
@@ -2555,7 +2555,7 @@
     },
     "msgpack": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/msgpack-1.1.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/msgpack-1.1.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "msgpack"
       ],
@@ -2569,7 +2569,7 @@
     },
     "msgspec": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/msgspec-0.20.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/msgspec-0.20.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "msgspec"
       ],
@@ -2589,7 +2589,7 @@
         "demes",
         "rpds-py"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/msprime-1.4.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/msprime-1.4.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "msprime"
       ],
@@ -2603,7 +2603,7 @@
     },
     "multidict": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/multidict-6.7.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/multidict-6.7.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "multidict"
       ],
@@ -2620,7 +2620,7 @@
         "setuptools",
         "six"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/munch-4.0.0-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/munch-4.0.0-py2.py3-none-any.whl",
       "imports": [
         "munch"
       ],
@@ -2636,7 +2636,7 @@
       "depends": [
         "librt"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/mypy-1.19.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/mypy-1.19.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "mypyc",
         "mypy"
@@ -2653,7 +2653,7 @@
       "depends": [
         "mypy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/mypy-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/mypy-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "mypy-tests",
@@ -2665,7 +2665,7 @@
     },
     "mysqlclient": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/mysqlclient-2.2.8-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/mysqlclient-2.2.8-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "MySQLdb"
       ],
@@ -2679,7 +2679,7 @@
     },
     "narwhals": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/narwhals-2.18.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/narwhals-2.18.1-py3-none-any.whl",
       "imports": [
         "narwhals"
       ],
@@ -2693,7 +2693,7 @@
     },
     "ndindex": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/ndindex-1.10.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/ndindex-1.10.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "ndindex"
       ],
@@ -2709,7 +2709,7 @@
       "depends": [
         "ndindex"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/ndindex-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/ndindex-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "ndindex-tests",
@@ -2726,7 +2726,7 @@
         "cftime",
         "certifi"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/netcdf4-1.7.4-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/netcdf4-1.7.4-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "netCDF4"
       ],
@@ -2745,7 +2745,7 @@
         "matplotlib",
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/networkx-3.6.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/networkx-3.6.1-py3-none-any.whl",
       "imports": [
         "networkx"
       ],
@@ -2761,7 +2761,7 @@
       "depends": [
         "networkx"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/networkx-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/networkx-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "networkx-tests",
@@ -2773,7 +2773,7 @@
     },
     "newick": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/newick-1.11.0-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/newick-1.11.0-py2.py3-none-any.whl",
       "imports": [
         "newick"
       ],
@@ -2787,7 +2787,7 @@
     },
     "nh3": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/nh3-0.3.4-cp38-abi3-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/nh3-0.3.4-cp38-abi3-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "nh3"
       ],
@@ -2803,7 +2803,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/nlopt-2.9.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/nlopt-2.9.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "nlopt"
       ],
@@ -2819,7 +2819,7 @@
       "depends": [
         "regex"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/nltk-3.9.4-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/nltk-3.9.4-py3-none-any.whl",
       "imports": [
         "nltk"
       ],
@@ -2835,7 +2835,7 @@
       "depends": [
         "nltk"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/nltk-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/nltk-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "nltk-tests",
@@ -2850,7 +2850,7 @@
         "deprecated",
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/numcodecs-0.15.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/numcodecs-0.15.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "numcodecs"
       ],
@@ -2866,7 +2866,7 @@
       "depends": [
         "numcodecs"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/numcodecs-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/numcodecs-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "numcodecs-tests",
@@ -2878,7 +2878,7 @@
     },
     "numpy": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/numpy-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "numpy"
       ],
@@ -2892,7 +2892,7 @@
     },
     "numpy-tests": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/numpy_tests-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/numpy_tests-2.4.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "numpy-tests"
       ],
@@ -2913,7 +2913,7 @@
         "anyio",
         "jiter"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/openai-2.30.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/openai-2.30.0-py3-none-any.whl",
       "imports": [
         "openai"
       ],
@@ -2929,7 +2929,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/opencv_python-4.11.0.86-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/opencv_python-4.11.0.86-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "cv2"
       ],
@@ -2963,7 +2963,7 @@
         "six",
         "swiglpk"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/optlang-1.9.0-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/optlang-1.9.0-py2.py3-none-any.whl",
       "imports": [
         "optlang"
       ],
@@ -2979,7 +2979,7 @@
       "depends": [
         "optlang"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/optlang-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/optlang-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "optlang-tests",
@@ -2991,7 +2991,7 @@
     },
     "orjson": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/orjson-3.11.8-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/orjson-3.11.8-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "orjson"
       ],
@@ -3005,7 +3005,7 @@
     },
     "packaging": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/packaging-26.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/packaging-26.1-py3-none-any.whl",
       "imports": [
         "packaging"
       ],
@@ -3023,7 +3023,7 @@
         "python-dateutil",
         "pytz"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pandas-3.0.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pandas-3.0.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pandas"
       ],
@@ -3039,7 +3039,7 @@
       "depends": [
         "pandas"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pandas-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pandas-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "pandas-tests",
@@ -3051,7 +3051,7 @@
     },
     "parso": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/parso-0.8.6-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/parso-0.8.6-py2.py3-none-any.whl",
       "imports": [
         "parso"
       ],
@@ -3068,7 +3068,7 @@
         "numpy",
         "six"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/patsy-1.0.2-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/patsy-1.0.2-py2.py3-none-any.whl",
       "imports": [
         "patsy"
       ],
@@ -3084,7 +3084,7 @@
       "depends": [
         "patsy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/patsy-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/patsy-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "patsy-tests",
@@ -3098,7 +3098,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pcodec-1.0.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pcodec-1.0.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pcodec"
       ],
@@ -3112,7 +3112,7 @@
     },
     "peewee": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/peewee-4.0.4-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/peewee-4.0.4-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "peewee"
       ],
@@ -3128,7 +3128,7 @@
       "depends": [
         "peewee"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/peewee-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/peewee-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "peewee-tests",
@@ -3144,7 +3144,7 @@
         "numpy",
         "scikit-learn"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/phispy-5.0.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/phispy-5.0.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "PhiSpyModules",
         "PhiSpyRepeatFinder"
@@ -3162,7 +3162,7 @@
         "cffi",
         "pillow"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pi_heif-1.3.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pi_heif-1.3.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pi_heif"
       ],
@@ -3176,7 +3176,7 @@
     },
     "pillow": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pillow-12.2.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pillow-12.2.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "PIL"
       ],
@@ -3193,7 +3193,7 @@
         "cffi",
         "pillow"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pillow_heif-1.3.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pillow_heif-1.3.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pillow_heif"
       ],
@@ -3207,21 +3207,21 @@
     },
     "piplite": {
       "depends": [],
-      "file_name": "../../extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/piplite-0.8.5-py3-none-any.whl",
+      "file_name": "../../extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/piplite-0.8.6-py3-none-any.whl",
       "imports": [
         "piplite"
       ],
       "install_dir": "site",
       "name": "piplite",
       "package_type": "package",
-      "sha256": "bbda45ab85a52936c31b0c667df65a8fb72c099cc62a293a053c6d7d5ef69c71",
+      "sha256": "9628f2b38154d960c12e4844b4f1aaf496156e19ba7081f0a300971fadc80f60",
       "tool": {},
       "unvendored_tests": false,
-      "version": "0.8.5"
+      "version": "0.8.6"
     },
     "pkgconfig": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pkgconfig-1.6.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pkgconfig-1.6.0-py3-none-any.whl",
       "imports": [
         "pkgconfig"
       ],
@@ -3235,7 +3235,7 @@
     },
     "platformdirs": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/platformdirs-4.9.4-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/platformdirs-4.9.4-py3-none-any.whl",
       "imports": [
         "platformdirs"
       ],
@@ -3249,7 +3249,7 @@
     },
     "pluggy": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pluggy-1.6.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pluggy-1.6.0-py3-none-any.whl",
       "imports": [
         "pluggy"
       ],
@@ -3263,7 +3263,7 @@
     },
     "ply": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/ply-3.11-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/ply-3.11-py2.py3-none-any.whl",
       "imports": [
         "ply"
       ],
@@ -3277,7 +3277,7 @@
     },
     "polars": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/polars-1.33.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/polars-1.33.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "polars"
       ],
@@ -3293,7 +3293,7 @@
       "depends": [
         "wcwidth"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/prompt_toolkit-3.0.52-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/prompt_toolkit-3.0.52-py3-none-any.whl",
       "imports": [
         "prompt_toolkit"
       ],
@@ -3307,7 +3307,7 @@
     },
     "propcache": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/propcache-0.4.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/propcache-0.4.1-py3-none-any.whl",
       "imports": [
         "propcache"
       ],
@@ -3321,7 +3321,7 @@
     },
     "protobuf": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/protobuf-7.34.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/protobuf-7.34.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "google"
       ],
@@ -3337,7 +3337,7 @@
       "depends": [
         "psycopg-c"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/psycopg-3.3.4-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/psycopg-3.3.4-py3-none-any.whl",
       "imports": [
         "psycopg"
       ],
@@ -3351,7 +3351,7 @@
     },
     "psycopg-c": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/psycopg_c-3.3.4-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/psycopg_c-3.3.4-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "psycopg_c"
       ],
@@ -3365,7 +3365,7 @@
     },
     "pure-eval": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pure_eval-0.2.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pure_eval-0.2.3-py3-none-any.whl",
       "imports": [
         "pure_eval"
       ],
@@ -3379,7 +3379,7 @@
     },
     "py": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/py-1.11.0-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/py-1.11.0-py2.py3-none-any.whl",
       "imports": [
         "py"
       ],
@@ -3397,7 +3397,7 @@
         "pandas",
         "pyodide-unix-timezones"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyarrow-22.0.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyarrow-22.0.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pyarrow"
       ],
@@ -3411,7 +3411,7 @@
     },
     "pyclipper": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyclipper-1.4.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyclipper-1.4.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pyclipper"
       ],
@@ -3425,7 +3425,7 @@
     },
     "pycparser": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pycparser-3.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pycparser-3.0-py3-none-any.whl",
       "imports": [
         "pycparser"
       ],
@@ -3439,7 +3439,7 @@
     },
     "pycryptodome": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pycryptodome-3.23.0-cp37-abi3-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pycryptodome-3.23.0-cp37-abi3-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "Crypto"
       ],
@@ -3455,7 +3455,7 @@
       "depends": [
         "pycryptodome"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pycryptodome-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pycryptodome-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "pycryptodome-tests",
@@ -3472,7 +3472,7 @@
         "annotated-types",
         "typing-inspection"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pydantic-2.12.5-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pydantic-2.12.5-py3-none-any.whl",
       "imports": [
         "pydantic"
       ],
@@ -3488,7 +3488,7 @@
       "depends": [
         "typing-extensions"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pydantic_core-2.41.5-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pydantic_core-2.41.5-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pydantic_core"
       ],
@@ -3502,7 +3502,7 @@
     },
     "pydoc-data": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pydoc_data-1.0.0-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pydoc_data-1.0.0-py2.py3-none-any.whl",
       "imports": [
         "pydoc_data"
       ],
@@ -3518,7 +3518,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyerfa-2.0.1.5-cp39-abi3-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyerfa-2.0.1.5-cp39-abi3-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "erfa"
       ],
@@ -3534,7 +3534,7 @@
       "depends": [
         "pyerfa"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyerfa-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyerfa-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "pyerfa-tests",
@@ -3546,7 +3546,7 @@
     },
     "pygame-ce": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pygame_ce-2.5.7-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pygame_ce-2.5.7-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pygame"
       ],
@@ -3560,7 +3560,7 @@
     },
     "pygments": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pygments-2.20.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pygments-2.20.0-py3-none-any.whl",
       "imports": [
         "pygments"
       ],
@@ -3576,7 +3576,7 @@
       "depends": [
         "cffi"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyheif-0.8.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyheif-0.8.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pyheif"
       ],
@@ -3603,7 +3603,7 @@
         "sqlalchemy",
         "strictyaml"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyiceberg-0.11.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyiceberg-0.11.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pyiceberg"
       ],
@@ -3617,7 +3617,7 @@
     },
     "pyinstrument": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyinstrument-5.1.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyinstrument-5.1.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pyinstrument"
       ],
@@ -3633,7 +3633,7 @@
       "depends": [
         "dnspython"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pymongo-4.16.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pymongo-4.16.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pymongo",
         "gridfs"
@@ -3648,7 +3648,7 @@
     },
     "pymupdf": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pymupdf-1.27.2.2-cp314-abi3-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pymupdf-1.27.2.2-cp314-abi3-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pymupdf",
         "fitz"
@@ -3665,7 +3665,7 @@
       "depends": [
         "cffi"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pynacl-1.6.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pynacl-1.6.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "nacl"
       ],
@@ -3679,7 +3679,7 @@
     },
     "pyodide-http": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyodide_http-0.2.2-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyodide_http-0.2.2-py3-none-any.whl",
       "imports": [
         "pyodide_http"
       ],
@@ -3696,21 +3696,21 @@
         "comm",
         "ipython"
       ],
-      "file_name": "../../extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/pyodide_kernel-0.8.5-py3-none-any.whl",
+      "file_name": "../../extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/pyodide_kernel-0.8.6-py3-none-any.whl",
       "imports": [
         "pyodide_kernel"
       ],
       "install_dir": "site",
       "name": "pyodide-kernel",
       "package_type": "package",
-      "sha256": "4204c5e34b6cd3f235b2efa204f7fa2aea0f921eb0d11bed3bc648bebbf7dd23",
+      "sha256": "edee0de1587d27f02e3c612f0de9ea84e30febb2eafd1d87e958ba8f3cdd8348",
       "tool": {},
       "unvendored_tests": false,
-      "version": "0.8.5"
+      "version": "0.8.6"
     },
     "pyodide-unix-timezones": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyodide_unix_timezones-1.0.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyodide_unix_timezones-1.0.0-py3-none-any.whl",
       "imports": [
         "unix_timezones"
       ],
@@ -3724,7 +3724,7 @@
     },
     "pyparsing": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyparsing-3.3.2-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyparsing-3.3.2-py3-none-any.whl",
       "imports": [
         "pyparsing"
       ],
@@ -3736,11 +3736,25 @@
       "unvendored_tests": false,
       "version": "3.3.2"
     },
+    "pypdf": {
+      "depends": [],
+      "file_name": "../../static/pyodide-lock/pypdf-6.19.0-py3-none-any.whl",
+      "imports": [
+        "pypdf"
+      ],
+      "install_dir": "site",
+      "name": "pypdf",
+      "package_type": "package",
+      "sha256": "7e5d6e730e7dae87d560a2cee218b852f6498c8be61966f3cd02ead971e48d14",
+      "tool": {},
+      "unvendored_tests": false,
+      "version": "6.19.0"
+    },
     "pyproj": {
       "depends": [
         "certifi"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyproj-3.7.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyproj-3.7.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pyproj"
       ],
@@ -3754,7 +3768,7 @@
     },
     "pyroaring": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyroaring-1.0.4-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyroaring-1.0.4-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pyroaring"
       ],
@@ -3768,7 +3782,7 @@
     },
     "pyrodigal": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyrodigal-3.7.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyrodigal-3.7.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pyrodigal"
       ],
@@ -3784,7 +3798,7 @@
       "depends": [
         "pyrodigal"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyrodigal-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyrodigal-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "pyrodigal-tests",
@@ -3796,7 +3810,7 @@
     },
     "pyrsistent": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyrsistent-0.20.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyrsistent-0.20.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "_pyrsistent_version",
         "pyrsistent"
@@ -3811,7 +3825,7 @@
     },
     "pysam": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pysam-0.23.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pysam-0.23.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pysam"
       ],
@@ -3825,7 +3839,7 @@
     },
     "pyshp": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyshp-3.0.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyshp-3.0.3-py3-none-any.whl",
       "imports": [
         "shapefile"
       ],
@@ -3839,7 +3853,7 @@
     },
     "pytaglib": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pytaglib-3.2.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pytaglib-3.2.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "taglib"
       ],
@@ -3864,7 +3878,7 @@
         "exceptiongroup",
         "pygments"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pytest-9.0.2-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pytest-9.0.2-py3-none-any.whl",
       "imports": [
         "_pytest",
         "pytest"
@@ -3881,7 +3895,7 @@
       "depends": [
         "pytest"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pytest_asyncio-0.25.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pytest_asyncio-0.25.3-py3-none-any.whl",
       "imports": [
         "pytest_asyncio"
       ],
@@ -3895,7 +3909,7 @@
     },
     "pytest-benchmark": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pytest_benchmark-4.0.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pytest_benchmark-4.0.0-py3-none-any.whl",
       "imports": [
         "pytest_benchmark"
       ],
@@ -3913,7 +3927,7 @@
         "pytest",
         "httpcore"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pytest_httpx-0.36.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pytest_httpx-0.36.0-py3-none-any.whl",
       "imports": [
         "pytest_httpx"
       ],
@@ -3929,7 +3943,7 @@
       "depends": [
         "packaging"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/python_calamine-0.6.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/python_calamine-0.6.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "python_calamine"
       ],
@@ -3945,7 +3959,7 @@
       "depends": [
         "six"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
       "imports": [
         "dateutil"
       ],
@@ -3976,7 +3990,7 @@
     },
     "python-flirt": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/python_flirt-0.9.10-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/python_flirt-0.9.10-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "flirt"
       ],
@@ -3992,7 +4006,7 @@
       "depends": [
         "six"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/python_sat-1.8.dev26-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/python_sat-1.8.dev26-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pysat"
       ],
@@ -4006,7 +4020,7 @@
     },
     "python-solvespace": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/python_solvespace-3.0.8-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/python_solvespace-3.0.8-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "python_solvespace"
       ],
@@ -4020,7 +4034,7 @@
     },
     "pytz": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pytz-2026.1.post1-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pytz-2026.1.post1-py2.py3-none-any.whl",
       "imports": [
         "pytz"
       ],
@@ -4036,7 +4050,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pywavelets-1.9.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pywavelets-1.9.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pywt"
       ],
@@ -4052,7 +4066,7 @@
       "depends": [
         "pywavelets"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pywavelets-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pywavelets-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "pywavelets-tests",
@@ -4064,7 +4078,7 @@
     },
     "pyxirr": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyxirr-0.10.8-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyxirr-0.10.8-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "pyxirr"
       ],
@@ -4078,7 +4092,7 @@
     },
     "pyyaml": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/pyyaml-6.0.3-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/pyyaml-6.0.3-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "_yaml",
         "yaml"
@@ -4100,7 +4114,7 @@
         "click",
         "cligj"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/rasterio-1.5.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/rasterio-1.5.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "rasterio"
       ],
@@ -4118,7 +4132,7 @@
         "pandas",
         "matplotlib"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/rateslib-2.7.1-cp310-abi3-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/rateslib-2.7.1-cp310-abi3-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "rateslib"
       ],
@@ -4134,7 +4148,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/rebound-4.4.7-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/rebound-4.4.7-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "rebound"
       ],
@@ -4151,7 +4165,7 @@
         "rebound",
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/reboundx-4.4.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/reboundx-4.4.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "reboundx"
       ],
@@ -4169,7 +4183,7 @@
         "rpds-py",
         "typing-extensions"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/referencing-0.37.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/referencing-0.37.0-py3-none-any.whl",
       "imports": [
         "referencing"
       ],
@@ -4185,7 +4199,7 @@
       "depends": [
         "referencing"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/referencing-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/referencing-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "referencing-tests",
@@ -4197,7 +4211,7 @@
     },
     "regex": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/regex-2026.3.32-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/regex-2026.3.32-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "regex"
       ],
@@ -4213,7 +4227,7 @@
       "depends": [
         "regex"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/regex-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/regex-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "regex-tests",
@@ -4230,7 +4244,7 @@
         "urllib3",
         "certifi"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/requests-2.33.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/requests-2.33.1-py3-none-any.whl",
       "imports": [
         "requests"
       ],
@@ -4246,7 +4260,7 @@
       "depends": [
         "six"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/retrying-1.4.2-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/retrying-1.4.2-py3-none-any.whl",
       "imports": [
         "retrying"
       ],
@@ -4260,7 +4274,7 @@
     },
     "rich": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/rich-14.3.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/rich-14.3.3-py3-none-any.whl",
       "imports": [
         "rich"
       ],
@@ -4274,7 +4288,7 @@
     },
     "rpds-py": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/rpds_py-0.30.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/rpds_py-0.30.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "rpds"
       ],
@@ -4288,7 +4302,7 @@
     },
     "ruamel-yaml": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/ruamel_yaml-0.19.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/ruamel_yaml-0.19.1-py3-none-any.whl",
       "imports": [
         "ruamel"
       ],
@@ -4304,7 +4318,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/safetensors-0.7.0-cp38-abi3-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/safetensors-0.7.0-cp38-abi3-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "safetensors"
       ],
@@ -4327,7 +4341,7 @@
         "pywavelets",
         "lazy_loader"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/scikit_image-0.25.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/scikit_image-0.25.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "skimage"
       ],
@@ -4343,7 +4357,7 @@
       "depends": [
         "scikit-image"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/scikit-image-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/scikit-image-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "scikit-image-tests",
@@ -4359,7 +4373,7 @@
         "joblib",
         "threadpoolctl"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/scikit_learn-1.8.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/scikit_learn-1.8.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "sklearn"
       ],
@@ -4375,7 +4389,7 @@
       "depends": [
         "scikit-learn"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/scikit-learn-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/scikit-learn-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "scikit-learn-tests",
@@ -4389,7 +4403,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/scipy-1.18.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/scipy-1.18.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "scipy"
       ],
@@ -4405,7 +4419,7 @@
       "depends": [
         "scipy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/scipy-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/scipy-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "scipy-tests",
@@ -4417,7 +4431,7 @@
     },
     "screed": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/screed-1.1.3-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/screed-1.1.3-py2.py3-none-any.whl",
       "imports": [
         "bigtests",
         "screed"
@@ -4434,7 +4448,7 @@
       "depends": [
         "screed"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/screed-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/screed-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "screed-tests",
@@ -4446,7 +4460,7 @@
     },
     "sentencepiece": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/sentencepiece-0.2.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/sentencepiece-0.2.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "sentencepiece"
       ],
@@ -4462,7 +4476,7 @@
       "depends": [
         "pyparsing"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/setuptools-82.0.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/setuptools-82.0.1-py3-none-any.whl",
       "imports": [
         "_distutils_hack",
         "setuptools"
@@ -4479,7 +4493,7 @@
       "depends": [
         "setuptools"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/setuptools-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/setuptools-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "setuptools-tests",
@@ -4493,7 +4507,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/shapely-2.1.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/shapely-2.1.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "shapely"
       ],
@@ -4509,7 +4523,7 @@
       "depends": [
         "shapely"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/shapely-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/shapely-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "shapely-tests",
@@ -4521,7 +4535,7 @@
     },
     "simplejson": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/simplejson-3.20.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/simplejson-3.20.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "simplejson"
       ],
@@ -4537,7 +4551,7 @@
       "depends": [
         "simplejson"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/simplejson-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/simplejson-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "simplejson-tests",
@@ -4557,7 +4571,7 @@
         "pandas",
         "matplotlib"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/sisl-0.16.4-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/sisl-0.16.4-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "sisl_toolbox",
         "sisl"
@@ -4574,7 +4588,7 @@
       "depends": [
         "sisl"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/sisl-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/sisl-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "sisl-tests",
@@ -4586,7 +4600,7 @@
     },
     "six": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/six-1.17.0-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/six-1.17.0-py2.py3-none-any.whl",
       "imports": [
         "six"
       ],
@@ -4602,7 +4616,7 @@
       "depends": [
         "wrapt"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/smart_open-7.5.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/smart_open-7.5.1-py3-none-any.whl",
       "imports": [
         "smart_open"
       ],
@@ -4616,7 +4630,7 @@
     },
     "sniffio": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/sniffio-1.3.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/sniffio-1.3.1-py3-none-any.whl",
       "imports": [
         "sniffio"
       ],
@@ -4632,7 +4646,7 @@
       "depends": [
         "sniffio"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/sniffio-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/sniffio-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "sniffio-tests",
@@ -4644,7 +4658,7 @@
     },
     "sortedcontainers": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/sortedcontainers-2.4.0-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/sortedcontainers-2.4.0-py2.py3-none-any.whl",
       "imports": [
         "sortedcontainers"
       ],
@@ -4661,7 +4675,7 @@
         "cffi",
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/soundfile-0.12.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/soundfile-0.12.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "soundfile"
       ],
@@ -4675,7 +4689,7 @@
     },
     "soupsieve": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/soupsieve-2.8.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/soupsieve-2.8.3-py3-none-any.whl",
       "imports": [
         "soupsieve"
       ],
@@ -4698,7 +4712,7 @@
         "scipy",
         "bitstring"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/sourmash-4.8.14-py3-none-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/sourmash-4.8.14-py3-none-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "sourmash"
       ],
@@ -4714,7 +4728,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/soxr-0.5.0.post1-cp312-abi3-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/soxr-0.5.0.post1-cp312-abi3-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "soxr"
       ],
@@ -4733,7 +4747,7 @@
         "numpy",
         "scipy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/sparseqr-1.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/sparseqr-1.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "sparseqr"
       ],
@@ -4749,7 +4763,7 @@
       "depends": [
         "typing-extensions"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/sqlalchemy-2.0.48-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/sqlalchemy-2.0.48-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "sqlalchemy"
       ],
@@ -4765,7 +4779,7 @@
       "depends": [
         "sqlalchemy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/sqlalchemy-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/sqlalchemy-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "sqlalchemy-tests",
@@ -4781,7 +4795,7 @@
         "asttokens",
         "pure-eval"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/stack_data-0.6.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/stack_data-0.6.3-py3-none-any.whl",
       "imports": [
         "stack_data"
       ],
@@ -4795,7 +4809,7 @@
     },
     "starlette": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/starlette-1.0.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/starlette-1.0.0-py3-none-any.whl",
       "imports": [
         "starlette"
       ],
@@ -4815,7 +4829,7 @@
         "patsy",
         "packaging"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/statsmodels-0.14.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/statsmodels-0.14.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "statsmodels"
       ],
@@ -4831,7 +4845,7 @@
       "depends": [
         "python-dateutil"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/strictyaml-1.7.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/strictyaml-1.7.3-py3-none-any.whl",
       "imports": [
         "strictyaml"
       ],
@@ -4845,7 +4859,7 @@
     },
     "svgwrite": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/svgwrite-1.4.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/svgwrite-1.4.3-py3-none-any.whl",
       "imports": [
         "svgwrite"
       ],
@@ -4859,7 +4873,7 @@
     },
     "swiglpk": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/swiglpk-5.0.13-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/swiglpk-5.0.13-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "swiglpk"
       ],
@@ -4875,7 +4889,7 @@
       "depends": [
         "mpmath"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/sympy-1.14.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/sympy-1.14.0-py3-none-any.whl",
       "imports": [
         "isympy",
         "sympy"
@@ -4892,7 +4906,7 @@
       "depends": [
         "sympy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/sympy-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/sympy-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "sympy-tests",
@@ -4904,7 +4918,7 @@
     },
     "tblib": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/tblib-3.2.2-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/tblib-3.2.2-py3-none-any.whl",
       "imports": [
         "tblib"
       ],
@@ -4918,7 +4932,7 @@
     },
     "termcolor": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/termcolor-3.3.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/termcolor-3.3.0-py3-none-any.whl",
       "imports": [
         "termcolor"
       ],
@@ -4932,7 +4946,7 @@
     },
     "texttable": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/texttable-1.7.0-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/texttable-1.7.0-py2.py3-none-any.whl",
       "imports": [
         "texttable"
       ],
@@ -4946,7 +4960,7 @@
     },
     "texture2ddecoder": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/texture2ddecoder-1.0.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/texture2ddecoder-1.0.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "texture2ddecoder"
       ],
@@ -4960,7 +4974,7 @@
     },
     "threadpoolctl": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/threadpoolctl-3.6.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/threadpoolctl-3.6.0-py3-none-any.whl",
       "imports": [
         "threadpoolctl"
       ],
@@ -4977,7 +4991,7 @@
         "regex",
         "requests"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/tiktoken-0.12.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/tiktoken-0.12.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "tiktoken",
         "tiktoken_ext"
@@ -4992,7 +5006,7 @@
     },
     "tomli": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/tomli-2.4.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/tomli-2.4.1-py3-none-any.whl",
       "imports": [
         "tomli"
       ],
@@ -5006,7 +5020,7 @@
     },
     "tomli-w": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/tomli_w-1.2.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/tomli_w-1.2.0-py3-none-any.whl",
       "imports": [
         "tomli_w"
       ],
@@ -5020,7 +5034,7 @@
     },
     "toolz": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/toolz-1.1.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/toolz-1.1.0-py3-none-any.whl",
       "imports": [
         "tlz",
         "toolz"
@@ -5037,7 +5051,7 @@
       "depends": [
         "toolz"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/toolz-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/toolz-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "toolz-tests",
@@ -5049,7 +5063,7 @@
     },
     "tqdm": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/tqdm-4.67.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/tqdm-4.67.3-py3-none-any.whl",
       "imports": [
         "tqdm"
       ],
@@ -5063,7 +5077,7 @@
     },
     "traitlets": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/traitlets-5.14.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/traitlets-5.14.3-py3-none-any.whl",
       "imports": [
         "traitlets"
       ],
@@ -5079,7 +5093,7 @@
       "depends": [
         "traitlets"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/traitlets-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/traitlets-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "traitlets-tests",
@@ -5091,7 +5105,7 @@
     },
     "traits": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/traits-7.1.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/traits-7.1.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "traits"
       ],
@@ -5107,7 +5121,7 @@
       "depends": [
         "traits"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/traits-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/traits-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "traits-tests",
@@ -5119,7 +5133,7 @@
     },
     "tree-sitter": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/tree_sitter-0.23.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/tree_sitter-0.23.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "tree_sitter"
       ],
@@ -5135,7 +5149,7 @@
       "depends": [
         "tree-sitter"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/tree_sitter_go-0.23.3-cp39-abi3-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/tree_sitter_go-0.23.3-cp39-abi3-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "tree_sitter_go"
       ],
@@ -5151,7 +5165,7 @@
       "depends": [
         "tree-sitter"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/tree_sitter_java-0.23.4-cp39-abi3-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/tree_sitter_java-0.23.4-cp39-abi3-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "tree_sitter_java"
       ],
@@ -5167,7 +5181,7 @@
       "depends": [
         "tree-sitter"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/tree_sitter_python-0.23.4-cp39-abi3-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/tree_sitter_python-0.23.4-cp39-abi3-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "tree_sitter_python"
       ],
@@ -5185,7 +5199,7 @@
         "jsonschema",
         "rpds-py"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/tskit-1.0.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/tskit-1.0.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "tskit"
       ],
@@ -5199,7 +5213,7 @@
     },
     "typing-extensions": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/typing_extensions-4.15.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/typing_extensions-4.15.0-py3-none-any.whl",
       "imports": [
         "typing_extensions"
       ],
@@ -5213,7 +5227,7 @@
     },
     "typing-inspection": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/typing_inspection-0.4.2-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/typing_inspection-0.4.2-py3-none-any.whl",
       "imports": [
         "typing_inspection"
       ],
@@ -5227,7 +5241,7 @@
     },
     "tzdata": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/tzdata-2025.3-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/tzdata-2025.3-py2.py3-none-any.whl",
       "imports": [
         "tzdata"
       ],
@@ -5241,7 +5255,7 @@
     },
     "ujson": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/ujson-5.12.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/ujson-5.12.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "ujson"
       ],
@@ -5257,7 +5271,7 @@
       "depends": [
         "future"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/uncertainties-3.2.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/uncertainties-3.2.3-py3-none-any.whl",
       "imports": [
         "uncertainties"
       ],
@@ -5275,7 +5289,7 @@
         "packaging",
         "sympy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/unyt-3.1.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/unyt-3.1.0-py3-none-any.whl",
       "imports": [
         "unyt"
       ],
@@ -5291,7 +5305,7 @@
       "depends": [
         "unyt"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/unyt-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/unyt-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "unyt-tests",
@@ -5303,7 +5317,7 @@
     },
     "urllib3": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/urllib3-2.6.3-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/urllib3-2.6.3-py3-none-any.whl",
       "imports": [
         "urllib3"
       ],
@@ -5319,7 +5333,7 @@
       "depends": [
         "pandas"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/vega_datasets-0.9.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/vega_datasets-0.9.0-py3-none-any.whl",
       "imports": [
         "vega_datasets"
       ],
@@ -5335,7 +5349,7 @@
       "depends": [
         "vega-datasets"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/vega-datasets-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/vega-datasets-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "vega-datasets-tests",
@@ -5349,7 +5363,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/vrplib-2.1.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/vrplib-2.1.0-py3-none-any.whl",
       "imports": [
         "vrplib"
       ],
@@ -5363,7 +5377,7 @@
     },
     "wcwidth": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/wcwidth-0.6.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/wcwidth-0.6.0-py3-none-any.whl",
       "imports": [
         "wcwidth"
       ],
@@ -5377,7 +5391,7 @@
     },
     "webencodings": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/webencodings-0.5.1-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/webencodings-0.5.1-py2.py3-none-any.whl",
       "imports": [
         "webencodings"
       ],
@@ -5407,7 +5421,7 @@
       "depends": [
         "matplotlib"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/wordcloud-1.9.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/wordcloud-1.9.6-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "wordcloud"
       ],
@@ -5421,7 +5435,7 @@
     },
     "wrapt": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/wrapt-2.1.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/wrapt-2.1.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "wrapt"
       ],
@@ -5439,7 +5453,7 @@
         "packaging",
         "pandas"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/xarray-2026.2.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/xarray-2026.2.0-py3-none-any.whl",
       "imports": [
         "xarray"
       ],
@@ -5455,7 +5469,7 @@
       "depends": [
         "xarray"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/xarray-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/xarray-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "xarray-tests",
@@ -5471,7 +5485,7 @@
         "scipy",
         "setuptools"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/xgboost-2.1.4-py3-none-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/xgboost-2.1.4-py3-none-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "xgboost"
       ],
@@ -5485,7 +5499,7 @@
     },
     "xlrd": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/xlrd-2.0.2-py2.py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/xlrd-2.0.2-py2.py3-none-any.whl",
       "imports": [
         "xlrd"
       ],
@@ -5499,7 +5513,7 @@
     },
     "xxhash": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/xxhash-3.6.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/xxhash-3.6.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "xxhash"
       ],
@@ -5513,7 +5527,7 @@
     },
     "xyzservices": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/xyzservices-2026.3.0-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/xyzservices-2026.3.0-py3-none-any.whl",
       "imports": [
         "xyzservices"
       ],
@@ -5529,7 +5543,7 @@
       "depends": [
         "xyzservices"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/xyzservices-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/xyzservices-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "xyzservices-tests",
@@ -5545,7 +5559,7 @@
         "idna",
         "propcache"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/yarl-1.23.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/yarl-1.23.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "yarl"
       ],
@@ -5572,7 +5586,7 @@
         "tomli",
         "tomli-w"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/yt-4.4.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/yt-4.4.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "yt"
       ],
@@ -5593,7 +5607,7 @@
         "donfig",
         "typing-extensions"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/zarr-3.2.1-py3-none-any.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/zarr-3.2.1-py3-none-any.whl",
       "imports": [
         "zarr"
       ],
@@ -5609,7 +5623,7 @@
       "depends": [
         "zarr"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/zarr-tests.zip",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/zarr-tests.zip",
       "imports": [],
       "install_dir": "site",
       "name": "zarr-tests",
@@ -5621,7 +5635,7 @@
     },
     "zengl": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/zengl-2.7.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/zengl-2.7.2-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "zengl",
         "_zengl"
@@ -5638,7 +5652,7 @@
       "depends": [
         "numpy"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/zfpy-1.0.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/zfpy-1.0.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "zfpy"
       ],
@@ -5654,7 +5668,7 @@
       "depends": [
         "cffi"
       ],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.5/full/zstandard-0.25.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/zstandard-0.25.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
       "imports": [
         "zstandard"
       ],
