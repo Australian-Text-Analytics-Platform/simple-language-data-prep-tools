@@ -11,6 +11,7 @@ import ipywidgets as widgets
 from IPython.display import HTML
 
 from .tidy_transcripts import TidyTranscripts
+from . import version
 from .widget_layouts import full_width_layout, selector_layout, description_style
 
 process_output = widgets.Output()

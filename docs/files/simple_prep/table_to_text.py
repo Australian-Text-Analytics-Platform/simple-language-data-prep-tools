@@ -10,7 +10,8 @@ from IPython.display import HTML
 from openpyxl import load_workbook
 import ipywidgets as widgets
 
-from widget_layouts import full_width_layout, selector_layout, description_style
+from .widget_layouts import full_width_layout, selector_layout, description_style
+from . import version
 
 
 def generate_zip(button):
