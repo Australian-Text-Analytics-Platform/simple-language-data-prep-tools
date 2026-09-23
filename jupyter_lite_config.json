@@ -15,7 +15,7 @@
       "pypdf",
       "fonttools"
     ],
-    "prefetch_extra": ["ipywidgets", "python-docx", "openpyxl"]
+    "prefetch_extra": ["ipywidgets", "python-docx", "openpyxl", "pypdf"]
   },
   "PyodideLockOfflineAddon": {
     "enabled": true,

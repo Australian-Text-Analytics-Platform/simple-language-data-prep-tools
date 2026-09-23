@@ -412,6 +412,7 @@
             "ipywidgets",
             "openpyxl",
             "pyodide-kernel",
+            "pypdf",
             "python-docx"
           ]
         },
