@@ -407,6 +407,7 @@
           "lockFileURL": "./static/pyodide-lock/pyodide-lock.json",
           "packages": [
             "comm",
+            "fonttools",
             "ipykernel",
             "ipython",
             "ipywidgets",
