@@ -33,7 +33,7 @@ dev = [
   "python-docx",
   "openpyxl",
   "jupyter",
-  "pypdf"
+  "pypdf[fonts]",
 ]
 
 [project.urls]

@@ -12,7 +12,8 @@
       "openpyxl",
       "widgetsnbextension",
       "jupyterlab-widgets",
-      "pypdf"
+      "pypdf",
+      "fonttools"
     ],
     "prefetch_extra": ["ipywidgets", "python-docx", "openpyxl"]
   },
@@ -24,7 +25,8 @@
       "openpyxl",
       "widgetsnbextension",
       "jupyterlab-widgets",
-      "pypdf"
+      "pypdf",
+      "fonttools"
     ],
     "prune": true
   }

@@ -32,7 +32,6 @@ def extract_turns(transcript_doc: Document, split_speaker_on: re.Pattern):
 
     # We're going to treat each paragraph in the word file as a turn
     for turn_no, paragraph in enumerate(transcript_doc.paragraphs):
-
         # Note this is where we discard styling information
         para_text = paragraph.text
 
@@ -86,20 +85,17 @@ class RowWithExtraFields:
     """
 
     def __post_init__(self):
-
         self.required_fields = [
             f.name for f in dc.fields(self) if f.name != "extra_fields"
         ]
         self.extra_field_names = list(self.extra_fields)
 
     def as_header_row(self):
-
         extras = list(self.extra_fields)
 
         return [*self.required_fields, *self.extra_field_names]
 
     def as_row(self):
-
         named = dc.asdict(self)
 
         return [
@@ -108,7 +104,6 @@ class RowWithExtraFields:
         ]
 
     def merge_extras(self, from_instance):
-
         self.extra_fields = from_instance.extra_fields
         self.__post_init__()
 
@@ -173,7 +168,6 @@ class TidyTranscripts(RowWithExtraFields):
     transcript_stats: list[Transcript] = dc.field(init=False, default_factory=list)
 
     def __post_init__(self):
-
         if isinstance(self.split_speaker_on, str):
             self.split_speaker_on = re.compile(self.split_speaker_on)
 
@@ -189,13 +183,11 @@ class TidyTranscripts(RowWithExtraFields):
 
         # Extract and populate all the data we need.
         for source_file, doc in self.transcripts.items():
-
             last_speaker_code = ""
 
             for segment_no, turn_no, speaker_code, transcription in extract_turns(
                 doc, self.split_speaker_on
             ):
-
                 # Optionally, if a speaker can't be identified, replace it with the
                 # last valid speaker.
                 if not speaker_code and self.fill_missing_speaker_with_previous_speaker:
@@ -247,7 +239,7 @@ class TidyTranscripts(RowWithExtraFields):
 
         with ZipFile(doc_zip_path) as zipf:
             for zippath in zipf.namelist():
-                if zippath.endswith(".docx"):
+                if zippath.lower().endswith(".docx"):
                     with zipf.open(zippath, "r") as f:
                         transcripts[zippath] = Document(f)
 
@@ -256,7 +248,6 @@ class TidyTranscripts(RowWithExtraFields):
         )
 
     def extract_from_existing_spreadsheet(self):
-
         if self.spreadsheet_bytes:
             wb = load_workbook(filename=BytesIO(self.spreadsheet_bytes))
         else:
@@ -281,9 +272,7 @@ class TidyTranscripts(RowWithExtraFields):
         ]
 
         for sheetname, key_columns, sheet_type, data_loc in sheet_map:
-
             if sheetname in wb.sheetnames:
-
                 ws = wb[sheetname]
                 rows = ws.iter_rows()
 
@@ -358,7 +347,6 @@ class TidyTranscripts(RowWithExtraFields):
             ("transcript_file", self.transcript_stats, existing_transcript_stats),
         ]
         for sheet_name, rows, extra_data in config:
-
             if sheet_name in wb.sheetnames:
                 wb.remove(wb[sheet_name])
 
@@ -373,7 +361,6 @@ class TidyTranscripts(RowWithExtraFields):
             sheet.append(temp_row.as_header_row())
 
             for row in rows:
-
                 key = row.as_key()
 
                 if key in extra_data:
@@ -390,7 +377,6 @@ class TidyTranscripts(RowWithExtraFields):
 
 
 if __name__ == "__main__":
-
     tidied = TidyTranscripts.from_filepaths(
         ["../examples/transcript_format_example.docx"],
         spreadsheet_path="../examples/output.xlsx",

@@ -1364,17 +1364,17 @@
     },
     "fonttools": {
       "depends": [],
-      "file_name": "https://cdn.jsdelivr.net/pyodide/v314.0.6/full/fonttools-4.62.1-py3-none-any.whl",
+      "file_name": "../../static/pyodide-lock/fonttools-4.65.0-py3-none-any.whl",
       "imports": [
         "fontTools"
       ],
       "install_dir": "site",
       "name": "fonttools",
       "package_type": "package",
-      "sha256": "94f246abe8cd46f0695dc9256cde3966bc637b80148fe72a1e7b0e6623d62144",
+      "sha256": "3060b8c1fc2329fa20265b7c138614143ea7c1624e26c5c180c76aeb74deae6f",
       "tool": {},
       "unvendored_tests": false,
-      "version": "4.62.1"
+      "version": "4.65.0"
     },
     "freesasa": {
       "depends": [],
