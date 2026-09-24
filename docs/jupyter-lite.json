@@ -431,7 +431,8 @@
         "label": "JupyterLab",
         "version": "4.6.3"
       }
-    }
+    },
+    "workspacesAllJsonFile": "all.json"
   },
   "jupyter-lite-schema-version": 0
 }

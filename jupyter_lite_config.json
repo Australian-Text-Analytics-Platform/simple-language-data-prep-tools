@@ -1,6 +1,6 @@
 {
   "LiteBuildConfig": {
-    "contents": ["notebooks/", "examples/"],
+    "contents": ["notebooks/", "examples/", "README.md"],
     "extra_ignore_contents": ["outputs", "__pycache__", "egg-info"],
     "output_dir": "docs"
   },

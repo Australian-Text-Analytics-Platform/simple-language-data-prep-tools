@@ -1,0 +1,149 @@
+{
+  "new-workspace": {
+    "data": {
+      "docmanager:recents": {
+        "closed": [
+          {
+            "contentType": "file",
+            "factory": "Editor",
+            "path": "README.md",
+            "root": ""
+          }
+        ],
+        "opened": [
+          {
+            "contentType": "directory",
+            "path": "",
+            "root": ""
+          },
+          {
+            "contentType": "file",
+            "factory": "Markdown Preview",
+            "path": "README.md",
+            "root": ""
+          },
+          {
+            "contentType": "notebook",
+            "factory": "Notebook",
+            "path": "word_transcript_tabulator.ipynb",
+            "root": ""
+          },
+          {
+            "contentType": "notebook",
+            "factory": "Notebook",
+            "path": "document_text_extractor.ipynb",
+            "root": ""
+          },
+          {
+            "contentType": "notebook",
+            "factory": "Notebook",
+            "path": "spreadsheet_to_plaintext.ipynb",
+            "root": ""
+          }
+        ]
+      },
+      "file-browser-filebrowser:columns": {
+        "sizes": {
+          "date_created": null,
+          "file_size": null,
+          "is_selected": 18,
+          "last_modified": 86.5,
+          "name": 139.5
+        },
+        "sortState": {
+          "direction": "ascending",
+          "key": "name"
+        }
+      },
+      "layout-restorer:data": {
+        "down": {
+          "collapsed": true,
+          "size": 0,
+          "widgets": []
+        },
+        "left": {
+          "collapsed": false,
+          "current": "filebrowser",
+          "visible": true,
+          "widgetStates": {
+            "jp-running-sessions": {
+              "expansionStates": [
+                false,
+                false,
+                false,
+                false
+              ],
+              "sizes": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+              ]
+            }
+          },
+          "widgets": [
+            "filebrowser",
+            "running-sessions",
+            "@jupyterlab/toc:plugin"
+          ]
+        },
+        "main": {
+          "current": "markdownviewer-widget:README.md",
+          "dock": {
+            "currentIndex": 0,
+            "type": "tab-area",
+            "widgets": [
+              "markdownviewer-widget:README.md",
+              "notebook:document_text_extractor.ipynb",
+              "notebook:spreadsheet_to_plaintext.ipynb",
+              "notebook:word_transcript_tabulator.ipynb"
+            ]
+          }
+        },
+        "relativeSizes": [
+          0.198196682464455,
+          0.801803317535545,
+          0
+        ],
+        "right": {
+          "collapsed": true,
+          "visible": true,
+          "widgetStates": {},
+          "widgets": [
+            "jp-property-inspector"
+          ]
+        },
+        "top": {
+          "simpleVisibility": true
+        }
+      },
+      "markdownviewer-widget:README.md": {
+        "data": {
+          "factory": "Markdown Preview",
+          "path": "README.md"
+        }
+      },
+      "notebook:document_text_extractor.ipynb": {
+        "data": {
+          "factory": "Notebook",
+          "path": "document_text_extractor.ipynb"
+        }
+      },
+      "notebook:spreadsheet_to_plaintext.ipynb": {
+        "data": {
+          "factory": "Notebook",
+          "path": "spreadsheet_to_plaintext.ipynb"
+        }
+      },
+      "notebook:word_transcript_tabulator.ipynb": {
+        "data": {
+          "factory": "Notebook",
+          "path": "word_transcript_tabulator.ipynb"
+        }
+      }
+    },
+    "metadata": {
+      "id": "new-workspace"
+    }
+  }
+}
