@@ -4,6 +4,7 @@
     "appName": "Simple Language Data Prep Tools",
     "exposeAppInBrowser": true,
     "enableMemoryStorage": true,
-    "contentsStorageDrivers": ["memoryStorageDriver"]
+    "contentsStorageDrivers": ["memoryStorageDriver"],
+    "settingsStorageDrivers": ["memoryStorageDriver"]
   }
 }
