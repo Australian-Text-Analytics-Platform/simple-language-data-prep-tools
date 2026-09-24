@@ -6,14 +6,25 @@ These tools aim to have a simple user interface and basic configuration options 
 
 The specific tools included are:
 
-- the Word Transcript Tabulator notebook. Takes a set of interview transcripts in Microsoft Word format (`docx` format only), and converts them into a structured Excel spreadsheet (`xlsx` format).
-- the Spreadsheet to Plaintext notebook. Upload a structured Excel spreadsheet (`xlsx` format), and choose which columns to pull out into separate text files.
-- the Document Text Extractor notebook. Takes a set of PDF and Word documents (`docx` format), and pulls out the text into either a set of plaintext files, or a structured format like a spreadsheet. This tool does not perform optical character recognition (OCR), but can work with the outputs of tools like [Scribe OCR](https://scribeocr.com/) (also runs in your browser).
+- The Word Transcript Tabulator notebook. Takes a set of interview transcripts in Microsoft Word format (`docx` format only), and converts them into a structured Excel spreadsheet (`xlsx` format).
+- The Spreadsheet to Plaintext notebook. Upload a structured Excel spreadsheet (`xlsx` format), and choose which columns to pull out into separate text files.
+- The Document Text Extractor notebook. Takes a set of PDF and Word documents (`docx` format), and pulls out the text into either a set of plaintext files, or a structured format like a spreadsheet. This tool does not perform optical character recognition (OCR), but can work with the outputs of tools like [Scribe OCR](https://scribeocr.com/) (also runs in your browser).
 
 
-# Please Cite
+# Citation
 
-These tools have been built by Sam Hames as part of the Language Data Commons of Australia (LDaCA) research infrastructure project. If you use these tools, please cite them, and even better let us know how useful they were!
+These tools have been built by Sam Hames as part of the Language Data Commons of Australia (LDaCA) research infrastructure project. If you use these tools, please cite them. 
+
+An example citation is:
+
+Hames, S. (2026). Simple Language Data Preparation Tools. https://doi.org/10.5281/zenodo.20606858
+
+
+# Contact and Support
+
+You can reach out to the LDaCA project via the [contact information on our website](https://www.ldaca.edu.au/contact/). If you run into issues or problems with these tools, please raise an issue [on the GitHub repository](https://github.com/Australian-Text-Analytics-Platform/simple-language-data-prep-tools/issues).
 
 
 # Acknowledgment
+
+The Language Data Commons of Australia (LDaCA) is a co-investment partnership with the Australian Research Data Commons (ARDC) through the HASS and Indigenous Research Data Commons (DOI: 10.3565/kq2v-9g52). The ARDC is enabled by the Australian Government’s National Collaborative Research Infrastructure Strategy (NCRIS).

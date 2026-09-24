@@ -1,11 +1,8 @@
-# This CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
-
 cff-version: 1.2.0
 title: Simple Language Data Preparation Tools
 message: >-
   If you use this software (especially in your research)
-  please cite it using the information in this file.
+  please cite it using the information in the CITATION.cff file.
 type: software
 authors:
   - given-names: Sam
@@ -32,5 +29,5 @@ keywords:
   - data preparation
   - data transformation
 license: AGPL-3.0-or-later
-version: 0.0.4
-date-released: '2026-07-02'
+version: 0.0.5
+date-released: '2026-09-24'

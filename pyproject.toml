@@ -23,8 +23,8 @@ dependencies = [
   "jupyterlite-pyodide-kernel[lock]",
 ]
 
-# Don't forget to update notebooks/simple_prep/__init__.py
-version="0.0.4"
+# Don't forget to update notebooks/simple_prep/version.py
+version="0.0.5"
 
 
 [project.optional-dependencies]
