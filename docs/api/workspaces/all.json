@@ -1,5 +1,5 @@
 {
-  "new-workspace": {
+  "default-workspace": {
     "data": {
       "docmanager:recents": {
         "closed": [
@@ -143,7 +143,7 @@
       }
     },
     "metadata": {
-      "id": "new-workspace"
+      "id": "default-workspace"
     }
   }
 }

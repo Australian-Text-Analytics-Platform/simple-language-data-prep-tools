@@ -2,7 +2,8 @@
   "LiteBuildConfig": {
     "contents": ["notebooks/", "examples/", "README.md"],
     "extra_ignore_contents": ["outputs", "__pycache__", "egg-info"],
-    "output_dir": "docs"
+    "output_dir": "docs",
+    "workspaces": ["workspaces/"]
   },
   "PyodideLockAddon": {
     "enabled": true,

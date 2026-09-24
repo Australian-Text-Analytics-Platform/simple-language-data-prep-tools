@@ -5,6 +5,7 @@
     "exposeAppInBrowser": true,
     "enableMemoryStorage": true,
     "contentsStorageDrivers": ["memoryStorageDriver"],
-    "settingsStorageDrivers": ["memoryStorageDriver"]
+    "settingsStorageDrivers": ["memoryStorageDriver"],
+    "workspace": "default-workspace"
   }
 }
