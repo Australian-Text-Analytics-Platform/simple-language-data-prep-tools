@@ -10,6 +10,7 @@ import io
 import math
 import pathlib
 import time
+import traceback
 
 from IPython.display import HTML
 from docx import Document
@@ -108,10 +109,11 @@ def prepare_plaintext(doc_zip, output_filename, encoding):
     """Prepare the plaintext extract, merging all the text from each document together."""
 
     with ZipFile(output_filename, "w") as z:
-        for filepath, text in iterate_files_text(doc_zip):
-            z.writestr(
-                filepath + ".txt", ("\n\n".join(t[0] for t in text)).encode(encoding)
-            )
+        for filepath, components in iterate_files_text(doc_zip):
+            # Join components back together for the full document.
+            file_text = "\n\n".join(comp[-1] for comp in components)
+
+            z.writestr(filepath + ".txt", file_text.encode(encoding))
 
 
 def prepare_spreadsheet(doc_zip, output_filename):
@@ -169,7 +171,7 @@ def run_process(button):
             )
 
         except Exception as e:
-            display(e)
+            display(traceback.format_exc(e))
             print("Something went wrong that we didn't know how to handle")
 
 
