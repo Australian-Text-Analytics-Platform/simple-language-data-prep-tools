@@ -3,6 +3,7 @@ Handle the extraction of text from a set of PDF and Word (.docx) documents.
 
 """
 
+from tempfile import NamedTemporaryFile
 from urllib.parse import quote
 from zipfile import ZipFile
 import collections
@@ -59,21 +60,19 @@ def extract_paragraphs_docx(file):
         if isinstance(item, Paragraph):
             # Skip blank paragraphs.
             if item.text.strip():
-                yield ("paragraph", sequence_number, item.style.name, item.text.strip())
+                para_text = item.text.strip()
+
+                yield ("paragraph", sequence_number, item.style.name, para_text)
 
         elif isinstance(item, Table):
-            yield (
-                "table",
-                sequence_number,
-                None,
-                " ".join(_extract_doc_table_contents(item)),
-            )
+            table_text = " ".join(_extract_doc_table_contents(item))
+            yield ("table", sequence_number, None, table_text)
 
         else:
             raise ValueError(f"I don't know what to do with {item}.")
 
 
-def iterate_files_text(doc_zip):
+def iterate_read_files_text(doc_zip):
     """Generator of files in the zip and their associated text content."""
 
     with ZipFile(doc_zip) as zipf:
@@ -108,12 +107,45 @@ def iterate_files_text(doc_zip):
 def prepare_plaintext(doc_zip, output_filename, encoding):
     """Prepare the plaintext extract, merging all the text from each document together."""
 
-    with ZipFile(output_filename, "w") as z:
-        for filepath, components in iterate_files_text(doc_zip):
-            # Join components back together for the full document.
-            file_text = "\n\n".join(comp[-1] for comp in components)
+    # Create workbook and summary sheets to hold a summary of extracted text length.
+    wb = Workbook()
+    wb.remove(wb["Sheet"])
 
-            z.writestr(filepath + ".txt", file_text.encode(encoding))
+    wb.create_sheet("document_unit_lengths")
+    ws = wb["document_unit_lengths"]
+    ws.append(["source_file", "unit_no", "unit_type", "extracted_characters"])
+
+    # Statistics of extracted text for creating a summary table to show unusually short
+    # documents.
+    doc_lengths = collections.Counter()
+
+    with ZipFile(output_filename, "w") as z:
+        for filepath, components in iterate_read_files_text(doc_zip):
+            build_text = []
+
+            for unit, sequence_number, _, component_text in components:
+                build_text.append(component_text)
+
+                component_length = len(component_text)
+                ws.append([filepath, sequence_number, unit, component_length])
+
+                doc_lengths[(filepath, unit)] += component_length
+
+            # Join components back together for the full document.
+            file_text = "\n\n".join(build_text)
+
+            z.writestr("/text/" + filepath + ".txt", file_text.encode(encoding))
+
+        wb.create_sheet("document_lengths")
+        ws = wb["document_lengths"]
+        ws.append(["source_file", "unit_type", "text_length"])
+
+        for key, text_length in reversed(doc_lengths.most_common()):
+            ws.append([*key, text_length])
+
+        with NamedTemporaryFile() as temp:
+            wb.save(temp.name)
+            z.write(temp.name, "document_summary.xlsx")
 
 
 def prepare_spreadsheet(doc_zip, output_filename):
@@ -126,11 +158,27 @@ def prepare_spreadsheet(doc_zip, output_filename):
 
     ws = wb["document_text"]
 
-    ws.append(["source_file", "unit_type", "sequence_number", "style", "text"])
+    ws.append(
+        ["source_file", "unit_type", "sequence_number", "style", "text", "text_length"]
+    )
 
-    for filepath, text in iterate_files_text(doc_zip):
-        for t in text:
-            ws.append([filepath, *t])
+    # Statistics of extracted text for creating a summary table to show unusually short
+    # documents.
+    doc_lengths = collections.Counter()
+
+    for filepath, text_components in iterate_read_files_text(doc_zip):
+        for component in text_components:
+            text_length = len(component[-1])
+            ws.append([filepath, *component, text_length])
+
+            doc_lengths[(filepath, component[0])] += text_length
+
+    wb.create_sheet("document_lengths")
+    ws = wb["document_lengths"]
+    ws.append(["source_file", "unit_type", "text_length"])
+
+    for key, text_length in reversed(doc_lengths.most_common()):
+        ws.append([*key, text_length])
 
     wb.save(output_filename)
 

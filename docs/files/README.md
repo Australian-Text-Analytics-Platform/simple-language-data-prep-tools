@@ -25,6 +25,16 @@ Hames, S. (2026). Simple Language Data Preparation Tools. https://doi.org/10.528
 You can reach out to the LDaCA project via the [contact information on our website](https://www.ldaca.edu.au/contact/). If you run into issues or problems with these tools, please raise an issue [on the GitHub repository](https://github.com/Australian-Text-Analytics-Platform/simple-language-data-prep-tools/issues).
 
 
-## Acknowledgment
+## Acknowledgments
 
 The Language Data Commons of Australia (LDaCA) is a co-investment partnership with the Australian Research Data Commons (ARDC) through the HASS and Indigenous Research Data Commons (DOI: 10.3565/kq2v-9g52). The ARDC is enabled by the Australian Government’s National Collaborative Research Infrastructure Strategy (NCRIS).
+
+We'd also like to thank the following people for testing and providing feedback and suggestions for improvements:
+
+* Eve Ansell
+* Zahid Juri
+
+
+## Changes
+
+* *Version 0.0.6*: Added summary information in the output files for the document text extractor about the amount of text extracted from each document. This is intended to help make it easier to identify PDF files that need OCR to be applied and other quality control purposes when working across your collection of documents.
